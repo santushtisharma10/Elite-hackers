@@ -69,4 +69,29 @@ app.post("/register", async (req, res) => {
     })
 })
 
+app.get('/login',(req,res)=>{
+
+    res.send("Login page")
+})
+app.post('/login', async(req,res)=>{
+
+    const {name, pwd} = req.body
+
+    const checkUser = await User.find({username: name, password: pwd}) 
+    console.log(checkUser)
+
+    if(checkUser.length) {
+
+        console.log("successful")
+        res.json({
+            message: "Login successful"
+        })
+        return;
+    }
+
+    res.status(404).json({
+        message: "invalid login"
+    })
+})
+
 app.listen(PORT, () => console.log(`Listening to port ${PORT}`))

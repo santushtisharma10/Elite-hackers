@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Outlet } from 'react-router-dom'
 
 function Login() {
 
@@ -27,6 +26,7 @@ function Login() {
 
         if(!res.ok) {
 
+            setError(true)
             throw Error()
         }
 
@@ -57,12 +57,11 @@ function Login() {
     <div>
         Login page
         {error && <h1>Invalid Login</h1>}
-        <form>
+        <form onSubmit={handleSubmit}>
             <input name="name" value={user.name} onChange={handleChange} type="text" placeholder='Enter username'/>
             <input name="pwd" value={user.pwd} onChange={handleChange} type="password" placeholder='enter password'/>
             <button type='submit'>Submit</button>
         </form>
-        <Outlet />
     </div>
   )
 }
