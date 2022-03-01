@@ -52,10 +52,15 @@ function Login() {
         })
             .then(handleError)
             .then(() => window.location.href = "/dashboard")
-            .catch((err) => console.log("Invalid Login"))
+            .catch((err) => {
+                console.log("Invalid Login")
+                setTimeout(()=>setError(false), 2000)
+            }
+            )
     }
     return (
         <div className='login'>
+            {error && <div className='login__error'>Invalid Login</div>}
             <div className='login__container'>
                 <div className='login-container__img'>
                     <img src="https://assets.rbl.ms/25590936/origin.jpg" />
@@ -71,7 +76,7 @@ function Login() {
                         <button className='login_btn btn1' type='submit'>Login</button>
                         <button className='login_btn btn2' onClick={()=>window.location.href = "/login/new"} >Register</button>
                     </form>
-                    {error && <div className='login__error'>Invalid Login</div>}
+                    
                 </div>
 
             </div>

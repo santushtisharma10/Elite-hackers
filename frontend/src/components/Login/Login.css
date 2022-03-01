@@ -12,6 +12,16 @@
     margin: 20px auto;
     overflow: scroll;
 }
+.login__error {
+
+    background-color: rgb(236, 124, 124);
+    color: white;
+    width: 30vw;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    border-radius: 15px;
+}
 .login-container__img {
 
     width: 100%;

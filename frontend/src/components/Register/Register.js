@@ -26,8 +26,10 @@ function Register() {
 
         if (!res.ok) {
 
-            const { msg } = await res.json()
-            throw Error(msg)
+            const { message } = await res.json()
+            console.log("response",res)
+            console.log(message)
+            throw Error(message)
         }
 
         return res.json()
@@ -41,6 +43,7 @@ function Register() {
 
             setError(true)
             setErrorMsg("Password does not match")
+            setTimeout(()=>setError(false), 2000)
             return;
         }
 
@@ -64,11 +67,14 @@ function Register() {
             .catch((err) => {
 
                 setError(true)
-                setErrorMsg(err.msg)
+                setErrorMsg(err.message)
+                console.log(errorMsg)
+                setTimeout(()=>setError(false), 4000)
             })
     }
     return (
         <div className='login'>
+             {error && <div className='login__error'>{errorMsg}</div>}
             <div className='login__container'>
             <div className='login-container__img'>
                     <img src="https://assets.rbl.ms/25590936/origin.jpg" />
@@ -76,7 +82,7 @@ function Register() {
                 <div className='login-container__text'>
             <h1 className='login_text__heading'>Registeration</h1>
             <br />
-            {error && <h1>{errorMsg}</h1>}
+           
             <form onSubmit={handleSubmit}>
                 <input name="name" value={user.name} onChange={handleChange} type="text" placeholder='Username' required/>
                 <input name="email" value={user.email} onChange={handleChange} type="email" placeholder='email'required />

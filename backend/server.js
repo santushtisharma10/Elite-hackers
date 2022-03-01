@@ -38,7 +38,7 @@ app.post("/register", async (req, res) => {
     if (checkName) {
 
         res.status(404).json({ message: "username already in use" })
-
+        console.log(res.json())
         return;
     }
 
@@ -49,7 +49,7 @@ app.post("/register", async (req, res) => {
     if (checkMail) {
 
         res.status(404).json({ message: "email is already in use" })
-
+        console.log(res.json().message)
         return;
     }
 
