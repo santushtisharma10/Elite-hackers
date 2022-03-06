@@ -1,25 +1,33 @@
-const mongoose = require('mongoose')
-const Schema = mongoose.Schema
+import mongoose from 'mongoose';
+import validator from 'validator';
 
-const userSchema = new Schema({
-
-    username : {
-
+const userSchema = mongoose.Schema({
+    name: {
         type: String,
-        required: true
+        required: [true, "Please enter your name"]
     },
-    email : {
-
+    email: {
         type: String,
-        required: true
+        required: [true, "Please enter your email"],
+        validate: [validator.isEmail, "Please enter a email"],
+        unique: {
+            args: true,
+            msg: 'Email address already in use!'
+        }
     },
-    password : {
+    password: String
+});
 
-        type: String,
-        required: true
+userSchema.statics.login = async function(email, password) {
+    const user = await this.findOne({ email });
+    if (user) {
+        const auth = await bcryptjs.compare(password, user.password);
+        if (auth) {
+            return user;
+        }
+        throw Error('Incorrect password');
     }
-},{timestamps: true})
+    throw Error("Incorrect email");
+};
 
-const User = mongoose.model('User', userSchema)
-
-module.exports = User
+export default mongoose.model('User', userSchema);
