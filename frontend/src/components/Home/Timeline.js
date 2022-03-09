@@ -6,62 +6,39 @@ function Timeline() {
     <div>
         <section class="timeline-section">
         <div class="timeline-items">
+        
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2015</div>
-                <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="timeline-content">
+                    <h3>Connect with the perfect mentor</h3>
+                    <p >We will connect you with trained mentors,perfectly suited to your skills. </p>
                 </div>
             </div>
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2016</div>
+                
                 <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h3>Make Daily Progress</h3>
+                    <p>Leverage your Daily progress and take a step ahead in your career! </p>
                 </div>
             </div>
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2017</div>
+                
                 <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h3>Accelerate Your business</h3>
+                    <p>Find the right motivation,guidance and skills to boost your business profile.</p>
                 </div>
             </div>
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2018</div>
+                
                 <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h3>Reach Your Goals</h3>
+                    <p>Voila! You are now one step ahead. </p>
                 </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2019</div>
-                <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
-                <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2021</div>
-                <div class="timeline-content">
-                    <h3>timeline item title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                </div>
-            </div>
+            </div>         
+            
         </div>
         </section>
     </div>
