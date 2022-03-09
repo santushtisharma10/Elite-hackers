@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "./Navbar.jsx";
 import "./Home.css";
 import Footer from "./Footer";
+import Timeline from "./Timeline";
 import image from "../pictures/LandingImage.png";
 import ideas from "../pictures/ideas.png";
 import interest from "../pictures/interest.png";
@@ -24,7 +25,7 @@ export default function Home() {
             <NavLink to="/service" className="btn-get-started" id="btn">Get Started</NavLink>
           </div>
           </div>
-          <div className='col-lg-6 order-1 order-lg-2 header-img'>
+          <div className='col-lg-6 order-1 order-lg-2 header-img' id="image">
             <img src={image} className="img-fluid animated" id="floating" alt="homeimg" />
           </div>
           </div>
@@ -63,6 +64,7 @@ export default function Home() {
       </div>
     </div>
       </section>
+      <Timeline />
       
       <Footer />
       </>
