@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.jsx";
 import "./Home.css";
+import Footer from "./Footer";
 import image from "../pictures/LandingImage.png";
 import ideas from "../pictures/ideas.png";
 import interest from "../pictures/interest.png";
@@ -63,6 +64,7 @@ export default function Home() {
     </div>
       </section>
       
+      <Footer />
       </>
      
   )
