@@ -3,6 +3,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 
+import startupRoutes from "./routes/startup.js"
 import userRoutes from './routes/user.js'
 
 const app = express()
@@ -16,6 +17,7 @@ app.use(cors())
 const PORT = process.env.PORT || 3000
 
 app.use('/user', userRoutes)
+app.use('/startup', startupRoutes)
 
 app.get('/', (req, res) => {
     res.send("Welcome to Elite Hacker's Backend!")

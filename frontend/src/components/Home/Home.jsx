@@ -8,7 +8,7 @@ import ideas from "../pictures/ideas.png";
 import interest from "../pictures/interest.png";
 import growth from "../pictures/growth.png";
 import business from "../pictures/business.png";
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
             <h1 id="caption">Accelerate your learning with a 1-on-1 mentor </h1>
             <h2 id ="sub-caption" className='my-3'>Strong mentorship feedback from world class mentors to have learning and leveraging the skills needed to lead</h2>
           <div className='mt-3'>
-            <NavLink to="/service" className="btn-get-started" id="btn">Get Started</NavLink>
+            <Link to="/login" className="btn-get-started" id="btn">Get Started</Link>
           </div>
           </div>
           <div className='col-lg-6 order-1 order-lg-2 header-img' id="image">
