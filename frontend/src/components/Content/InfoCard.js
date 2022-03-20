@@ -6,7 +6,7 @@ function InfoCard() {
         <div className="info">
             <Card >
                 <CardContent>
-                    <h3 className="info-title" >Title</h3>
+                    <h4 className="info-title" >Title</h4>
                     <h5>Information</h5>
                 </CardContent>
             </Card>

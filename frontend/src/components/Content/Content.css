@@ -1,15 +1,28 @@
 .content {
 
-    /* flex: 0.6; */
     /* background-color: blanchedalmond; */
-    
+    padding: 20px;
 }
+
+.content__title {
+
+    padding: 10px;
+}
+
 .content__info-card{
 
     display: flex;
     justify-content: space-between;  
-  
-  }
+    padding-bottom: 20px;
+}
+.content__courses {
+
+    padding: 20px;
+}
+.content__article {
+
+    padding: 20px;
+}
   
 .info{
   
@@ -17,4 +30,8 @@
     padding: 5px;
     cursor: pointer;
     
+  }
+  .course__card {
+
+    width: 200px;
   }
