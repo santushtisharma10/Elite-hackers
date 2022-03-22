@@ -1,0 +1,86 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.Rsidebar {
+  flex: 1.5;
+  border-right: 0.5px solid #e6e3e3;
+  height: 980px;
+  width: 250px;
+  background-color: white;
+}
+.Rsidebar .top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Rsidebar .top .logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #97c3d8;
+}
+.image{
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Rsidebar hr {
+  height: 0;
+  border: 0.5px solid #e6e3e3;
+}
+.Rsidebar .center {
+  padding-left: 10px;
+}
+.Rsidebar .center ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Rsidebar .center ul .title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.Rsidebar .center ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.Rsidebar .center ul li:hover {
+  background-color: #ece8ff;
+}
+.Rsidebar .center ul li .icon {
+  font-size: 26px;
+  color: #97c3d8;
+}
+.Rsidebar .center ul li span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #888;
+  margin-left: 10px;
+}
+.Rsidebar .bottom {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.Rsidebar .bottom .colorOption {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #97c3d8;
+  cursor: pointer;
+  margin: 5px;
+}
+.Rsidebar .bottom .colorOption:nth-child(1) {
+  background-color: whitesmoke;
+}
+.Rsidebar .bottom .colorOption:nth-child(2) {
+  background-color: #333;
+}
+.Rsidebar .bottom .colorOption:nth-child(3) {
+  background-color: #97c3d8;
+}

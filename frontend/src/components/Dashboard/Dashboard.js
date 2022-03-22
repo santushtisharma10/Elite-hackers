@@ -2,6 +2,7 @@ import React from 'react';
 import './Dashboard.css';
 import Sidebar from '../Sidebar/Sidebar';
 import Content from '../Content/Content';
+import Rsidebar from '../Sidebar/Rsidebar';
 
 function Dashboard() {
   return (
@@ -12,8 +13,9 @@ function Dashboard() {
       <div className='dashboard__content'>
         <Content />
       </div>
-      <div >
-        Profile Section
+      <div className='dashboard_sidebar'>
+       
+        <Rsidebar />
       </div>
     </div>
   )

@@ -5,9 +5,9 @@
 }
 .dashboard__sidebar {
 
-    flex: 0.15;
+    flex: 0.2;
 }
 .dashboard__content {
 
-    flex: 0.7;
+    flex: 1;
 }
