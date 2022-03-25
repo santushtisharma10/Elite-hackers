@@ -130,7 +130,7 @@ function MainMenu() {
     
         
           <Item
-            onClick={()=>setToggle(!toggle)}
+            onClick={()=>setToggle(false)}
             exact
             activeClassName="active"
             to="/"
