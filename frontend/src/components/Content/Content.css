@@ -30,23 +30,7 @@
     cursor: pointer;
     
   }
-  .course__card {
-
-    width: 200px;
-  }
-  .startup__card {
-
-    width: 300px;
-  }
-  .mentor__card {
-
-    width: 450px;
-    align-items: center;
-  }
-  .carousel__card {
-
-    width: 50vw;
-  }
+ 
   .header__info {
 
     

@@ -6,6 +6,7 @@ import { Grid } from '@material-ui/core'
 import CourseCard from '../Courses/CourseCard'
 import StartupCard from '../Startup/StartupCard'
 import MentorCard from '../Mentors/MentorCard'
+import ArticleCard from '../Articles/ArticleCard'
 
 function Content() {
     return (
@@ -31,9 +32,10 @@ function Content() {
             <div className='default__content'>
 
                 <h4>Courses</h4>
-                {/* <CourseCard /> */}
-                 {/* <StartupCard /> */}
+                <CourseCard />
+                 <StartupCard />
                  <MentorCard />
+                  <ArticleCard />
             </div>
         </div>
     )
