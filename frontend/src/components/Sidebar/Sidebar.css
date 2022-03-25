@@ -1,4 +1,4 @@
-.sideBar{
+/* .sideBar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,4 +60,45 @@
         margin: 0;
         opacity: 1;
         transition: 0s
+      } */
+
+.sidebar__button {
+      background-color: var(--black);
+      border: none;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      margin: 0.5rem 0 0 0.5rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}
+.sidebar__button::before,
+.sidebar__button::after {
+        content: "";
+        background-color: var(--white);
+        height: 2px;
+        width: 1rem;
+        position: absolute;
+        transition: all 0.3s ease;
       }
+/* .sidebar__button::before {
+        top: ${(props) => (props.clicked ? "1.5" : "1rem")};
+        transform: ${(props) => (props.clicked ? "rotate(135deg)" : "rotate(0)")};
+      }
+.sidebar__button::after {
+        top: ${(props) => (props.clicked ? "1.2" : "1.5rem")};
+        transform: ${(props) => (props.clicked ? "rotate(-135deg)" : "rotate(0)")};
+      }
+    `; */
+    :root {
+      /* Colors */
+      --black: #09090c;
+      --blue:#3498db;;
+      --grey: #a4b2bc;
+      --white: #fff;
+      --background: rgba(137, 171, 245, 0.37);
+      overflow: scroll;
+    }

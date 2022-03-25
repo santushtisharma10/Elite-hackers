@@ -6,7 +6,7 @@ import Content from '../Content/Content';
 function Dashboard() {
   return (
     <div className='dashboard'>
-      <div className='dashboard__sidebar'>
+      {/* <div className='dashboard__sidebar'>
         <Sidebar />
       </div>
       <div className='dashboard__content'>
@@ -14,6 +14,11 @@ function Dashboard() {
       </div>
       <div >
         Profile Section
+      </div> */}
+      <div >
+        <br/>
+        <Sidebar />
+        
       </div>
     </div>
   )
