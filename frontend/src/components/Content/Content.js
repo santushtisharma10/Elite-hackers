@@ -1,36 +1,42 @@
 import React from 'react'
-import InfoCard from './InfoCard'
 import "./Content.css"
-import CourseCard from './CourseCard'
-import ArticleCard from './ArticleCard'
+import CarouselCard from '../ProgressCards/Carousel'
+import InfoCard from '../ProgressCards/InfoCard'
+import { Grid } from '@material-ui/core'
+import CourseCard from '../Courses/CourseCard'
+import StartupCard from '../Startup/StartupCard'
+import MentorCard from '../Mentors/MentorCard'
 
 function Content() {
-  return (
-    <div className='content'>
-        <div className='content__title'>
-            <h1>Welcome to dashboard</h1>
-        </div>
-        <div className='content__info-card'>
-            <InfoCard />
-            <InfoCard />
-            <InfoCard />
-        </div>
-        <div className='content__recent'>
-            {/* recent courses visited if any else trending courses */}
-            <div className='content__courses'>
-                <h3>Trending Courses</h3>
-                <br />
-                <CourseCard />
+    return (
+        <div className='content'>
+            <br/><br />
+            <h2>Welcome to Dashboard</h2>
+            <br/>
+            <div className='content__header'>
+                <div className='header__carousel'>
+                    {/* <CarouselCard /> */}
+                    Carousel
+                    
+                </div>
+                <div className='header__info'>
+
+                    <InfoCard />
+                    <InfoCard />
+                </div>
+                    {/* <InfoCard />
+                    <InfoCard /> */}
+                
             </div>
-            {/* recent articles read if any else trending articles */}
-            <div className='content__article'>
-                <h3>Trending Articles</h3>
-                <br />
-                <ArticleCard />
+            <div className='default__content'>
+
+                <h4>Courses</h4>
+                {/* <CourseCard /> */}
+                 {/* <StartupCard /> */}
+                 <MentorCard />
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Content

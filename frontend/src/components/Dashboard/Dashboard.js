@@ -2,6 +2,7 @@ import React from 'react';
 import './Dashboard.css';
 import Sidebar from '../Sidebar/Sidebar';
 import Content from '../Content/Content';
+// import Navbar from "../Home/Navbar"
 
 function Dashboard() {
   return (
@@ -15,11 +16,16 @@ function Dashboard() {
       <div >
         Profile Section
       </div> */}
-      <div >
+        {/* <Navbar /> */}
+        
         <br/>
         <Sidebar />
+        <div className='dashboard__progress'>
+          
+          <Content />
+        </div>
         
-      </div>
+      
     </div>
   )
 }

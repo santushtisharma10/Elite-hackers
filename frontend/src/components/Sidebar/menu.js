@@ -1,24 +1,33 @@
-import {Home} from "@material-ui/icons"
-import { Work } from "@material-ui/icons";
-import { Link } from "@material-ui/icons";
+import {Dashboard, School, Work, People, ListAlt} from "@material-ui/icons"
+
 export const details = [
     {
       key: 'dashboard',
       name: 'Dashboard',
-      icon: <Home/>,
+      icon: <Dashboard/>,
      
     },
    
     {
       key: 'work',
-      name: 'Work',
-      icon: <Work />,
-      link: '/app/jobs'
+      name: 'Courses',
+      icon: <School />,
+      link: '/app/courses'
     },
     {
-      key: 'link',
-      name: 'Link',
-      icon: <Link />,
+      key: 'job',
+      name: 'Jobs',
+      icon: <Work />,
       
-    } 
+    } ,
+    {
+      key: 'mentor',
+      name: 'Mentors',
+      icon: <People />,
+    },
+    {
+      key: 'startup',
+      name: 'Startups',
+      icon: <ListAlt/>,
+    }
   ];
