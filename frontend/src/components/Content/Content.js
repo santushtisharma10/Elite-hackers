@@ -18,7 +18,7 @@ function Content() {
                 <div className='header__carousel'>
                     {/* <CarouselCard /> */}
                     Carousel
-                    
+                    <Carousels />
                 </div>
                 <div className='header__info'>
 
