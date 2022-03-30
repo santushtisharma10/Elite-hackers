@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Content.css"
-import CarouselCard from '../ProgressCards/Carousel'
+import CarouselCard from '../ProgressCards/Carousels'
 import InfoCard from '../ProgressCards/InfoCard'
 import { Grid } from '@material-ui/core'
 import CourseCard from '../Courses/CourseCard'
@@ -17,8 +17,8 @@ function Content() {
             <div className='content__header'>
                 <div className='header__carousel'>
                     {/* <CarouselCard /> */}
-                    Carousel
-                    <Carousels />
+
+                    <CarouselCard />
                 </div>
                 <div className='header__info'>
 

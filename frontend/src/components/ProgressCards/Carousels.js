@@ -10,7 +10,7 @@ import business from "../pictures/business.png";
 
 function Carousels (){
         return (
-            <Carousel className="car">
+            <Carousel autoPlay className="car">
                 <div className="carousel">
                 <img src={ideas} />
                     <p className="legend">Legend 1</p>

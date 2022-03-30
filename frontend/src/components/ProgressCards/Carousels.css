@@ -1,5 +1,14 @@
 .car{
-    height:450px;
-    width:450px;
-    margin-bottom:140px;
+    max-height:  250px;
+    margin-bottom:20px;
+}
+.car img {
+
+    max-height: 250px;
+    padding: 10px;
+
+}
+.carousel .thumbs-wrapper {
+
+    display: none;
 }
