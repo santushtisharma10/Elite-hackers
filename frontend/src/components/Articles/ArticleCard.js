@@ -1,16 +1,32 @@
 import React from 'react'
 import {NewsHeaderCard} from "react-ui-cards"
+import {data} from "./ArticleData"
+import {IconButton} from "@material-ui/core"
+import {AddBox} from "@material-ui/icons"
 
 function ArticleCard() {
-  return (
-    <div>
+
+  const getArticle = data => data.slice(0,2).map((item, id)=> {
+
+    return (
       <NewsHeaderCard
-    href='https://github.com/nekonee'
-    thumbnail='https://i.imgur.com/n5Wg2Po.jpg'
-    title='Cool looking test tubes'
-    author='Daily Science'
-    date='Mar 2, 2018'
+    href={item.url}
+    thumbnail={item.thumbnail}
+    title={item.title}
+    author={item.author}
+    date={item.date}
 />
+    )
+  })
+  return (
+    <div style={{display: "flex"}}>
+      {getArticle(data)}
+
+      <div style={{ margin: "0 auto", marginTop: "auto", marginBottom: "auto" }}>
+                <IconButton >
+                    <AddBox style={{ fontSize: "5rem" }} />
+                </IconButton>
+            </div>
     </div>
 
   )

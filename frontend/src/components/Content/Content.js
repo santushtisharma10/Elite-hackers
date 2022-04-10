@@ -25,14 +25,19 @@ function Content() {
           <InfoCard />
           <InfoCard />
         </div>
-        {/* <InfoCard />
-                    <InfoCard /> */}
+      
       </div>
       <div className="default__content">
-        <h4>Courses</h4>
+        <h1>Courses</h1>
         <CourseCard />
+        <br/>
+        <h1>Startup</h1>
         <StartupCard />
+        <br/>
+        {/* <h1>Mentor</h1>
         <MentorCard />
+        <br/> */}
+        <h1>Inspring Stories</h1>
         <ArticleCard />
       </div>
     <Chatbot/>
