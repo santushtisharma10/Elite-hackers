@@ -5,6 +5,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Dashboard from './components/Dashboard/Dashboard';
 import Timeline from './components/Home/Timeline';
+import Job from './components/JobContent/Job';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login/new" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />}/>
           <Route path="/timeline" element={<Timeline />}/>
+          <Route path="/jobs" element={<Job />}/>
         </Routes>
       </Router>
     </div>
