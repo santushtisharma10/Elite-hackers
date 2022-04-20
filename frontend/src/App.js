@@ -3,9 +3,15 @@ import {BrowserRouter as Router , Routes, Route } from "react-router-dom"
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-import Dashboard from './components/Dashboard/Dashboard';
-import Timeline from './components/Home/Timeline';
-import Job from './components/JobContent/Job';
+// import Dashboard from './components/Dashboard/Dashboard';
+
+import DashboardHome from './New/pages/home/DashboardHome.jsx';
+import UserList from './New/pages/userList/UserList';
+import NewUser from './New/pages/newUser/NewUser';
+import User from './New/pages/user/User';
+import ProductList from './New/pages/productList/ProductList';
+import Product from './New/pages/product/Product';
+import NewProduct from './New/pages/newProduct/NewProduct';
 
 function App() {
   
@@ -16,9 +22,13 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/login" element={<Login />} />
           <Route path="/login/new" element={<Register />} />
-          <Route path="/dashboard" element={<Dashboard />}/>
-          <Route path="/timeline" element={<Timeline />}/>
-          <Route path="/jobs" element={<Job />}/>
+          <Route path="/dashboard" element={<DashboardHome />}/>
+          <Route path="/dashboard/users" element={<UserList />}/>
+          <Route path="/dashboard/user/:userId" element={<User />}/>
+          <Route path="/dashboard/newUser" element={<NewUser />}/>
+          <Route path="/dashboard/products" element={<ProductList />}/>
+          <Route path="/dashboard/product/:productId" element={<Product />}/>
+          <Route path="/dashboard/newproduct" element={<NewProduct />}/>
         </Routes>
       </Router>
     </div>
