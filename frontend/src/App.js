@@ -12,9 +12,10 @@ import User from './New/pages/user/User';
 import ProductList from './New/pages/productList/ProductList';
 import Product from './New/pages/product/Product';
 import NewProduct from './New/pages/newProduct/NewProduct';
+import JobLists from './components/JobContent/JobLists';
+import JobDetails from './components/JobContent/JobDetails';
 
 function App() {
-  
   return (
     <div className="App">
       <Router>
@@ -29,6 +30,9 @@ function App() {
           <Route path="/dashboard/products" element={<ProductList />}/>
           <Route path="/dashboard/product/:productId" element={<Product />}/>
           <Route path="/dashboard/newproduct" element={<NewProduct />}/>
+          <Route path="/jobs" element={<JobLists />}/>
+          <Route path="/jobs/:position" element={<JobDetails />}/>
+
         </Routes>
       </Router>
     </div>
