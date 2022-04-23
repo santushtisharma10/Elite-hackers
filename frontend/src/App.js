@@ -14,6 +14,7 @@ import Product from './New/pages/product/Product';
 import NewProduct from './New/pages/newProduct/NewProduct';
 import JobLists from './components/JobContent/JobLists';
 import JobDetails from './components/JobContent/JobDetails';
+import ResumePage from './components/ResumeContent/ResumePage';
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
           <Route path="/dashboard/newproduct" element={<NewProduct />}/>
           <Route path="/jobs" element={<JobLists />}/>
           <Route path="/jobs/:position" element={<JobDetails />}/>
-
+          
+          <Route path="/resume" element={<ResumePage />}/>
         </Routes>
       </Router>
     </div>
