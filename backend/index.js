@@ -4,8 +4,8 @@ import mongoose from 'mongoose'
 import cors from 'cors'
 
 import userRoutes from './routes/user.js'
-import resumeRoutes from './routes/resume'
-import jobRoutes from './routes/jobs'
+import resumeRoutes from './routes/resume.js'
+import jobRoutes from './routes/jobs.js'
 
 const app = express()
 

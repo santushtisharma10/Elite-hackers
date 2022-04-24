@@ -1,14 +1,14 @@
 import mongoose from 'mongoose';
-import workExp from "./workExp";
-import project from './project';
-import education from './education';
+import workExp from "./workExp.js";
+import project from './project.js';
+import education from './education.js';
 
 const resumeSchema = new mongoose.Schema({
     name: String,
-    linkedin_link: URL,
-    github_link: URL,
-    email: email,
-    phone: phone,
+    linkedin_link: String,
+    github_link: String,
+    email: String,
+    phone: String,
     author: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
     UpdatedAt: {
         type: Date,

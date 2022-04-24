@@ -1,4 +1,4 @@
-import resume from "../models/resume";
+import resume from "../models/resume.js";
 
 export const getAllResume = async (req, res) => {
   try {
