@@ -3,8 +3,7 @@ import workExp from "./workExp";
 import project from './project';
 import education from './education';
 
-const jobSchema = new mongoose.Schema({
-    title: String,
+const resumeSchema = new mongoose.Schema({
     name: String,
     linkedin_link: URL,
     github_link: URL,
@@ -25,4 +24,4 @@ const jobSchema = new mongoose.Schema({
     other: String,
 });
 
-export default mongoose.model('Jobs', jobSchema);
+export default mongoose.model('Resume', resumeSchema);
