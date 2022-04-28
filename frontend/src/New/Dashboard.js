@@ -14,7 +14,7 @@ function Dashboard() {
   return (
     <Router>
       <Topbar />
-      <div className="container">
+      <div class="container" id="container-content">
         <Sidebar />
         <Routes>
           <Route path="/">

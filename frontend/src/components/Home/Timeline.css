@@ -80,7 +80,10 @@ body{
 }
 
 /* responsive */
-@media(max-width: 767px){
+@media(max-width: 720px){
+	.timeline-section{
+		padding-top: 1200px;
+	}
 	.timeline-items::before{
 		left: 7px;
 	}
