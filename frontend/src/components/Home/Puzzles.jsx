@@ -5,7 +5,7 @@ import puzzles from "../pictures/puzzles.jpg";
 const Puzzles = () => {
   return (
 <div style={{overflowY:"scroll"}}>
-      <img src={puzzles} className="image" id="floating" alt="homeimg" /><div class="container">
+      <img src={puzzles} className="image" id="floating" alt="homeimg" /><div class="puzzle__container">
     <div class="row">
         <span class="text1">Welcome Onboard!</span>
         <span class="text2">Unleash The Best Potential.</span>
