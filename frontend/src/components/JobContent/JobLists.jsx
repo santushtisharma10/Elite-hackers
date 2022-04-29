@@ -41,7 +41,7 @@ function JobLists() {
       <Header />
       <div>
         <section className="job__list">
-        <div className="container">
+        <div className="contaainer">
           <div className="job__list__wrapper">
             <div className="search__panel">
               <div className="search__panel-01">
