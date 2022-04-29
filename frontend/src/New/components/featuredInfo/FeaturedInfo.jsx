@@ -8,55 +8,47 @@ export default function FeaturedInfo() {
   return (
     <div>
     <div className="topheader">Learn New Skills</div>
+    
     <div className="featured">
       <div className="featuredItem">
-        <div>
-          <img src={logo} className="img" alt="" />
-        </div>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">PHP Development</span>
-          <span className="featuredMoneyRate">
-            12+ Videos 
-          </span>
-        </div>
-        <button className="featuredSub">Learn More </button>
-      </div>
-      <div className="featuredItem">
-      <div>
-          <img src={logo1} className="img" alt="" />
-        </div>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">Python Programming</span>
-          <span className="featuredMoneyRate">
-            15+ Videos 
-          </span>
-        </div>
-        <button className="featuredSub">Learn More </button>
-      </div>
-      <div className="featuredItem">
-      <div>
-          <img src={logo2} className="img" alt="" />
-        </div>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">Digital Marketing</span>
-          <span className="featuredMoneyRate">
-            20+ Videos 
-          </span>
-        </div>
-        <button className="featuredSub">Learn More </button>
-      </div>
-      <div className="featuredItem">
-      <div>
+      <div class="uppercard">
+          <div class="imgBx">
           <img src={logo3} className="img" alt="" />
+          </div>
+          <div class="card_content">
+            <div class="details">Figma with UI/UX Design</div>
+          </div>
         </div>
-        <br></br><br></br>
-        <div className="featuredMoneyContainer">
-          <span className="featuredMoney">Figma with UI/UX Design</span>
-          <span className="featuredMoneyRate">
-            13+ Videos 
-          </span>
         </div>
-        <button className="featuredSub">Learn More </button>
+      <div className="featuredItem">
+      <div class="uppercard">
+          <div class="imgBx">
+          <img src={logo2} className="img" alt="" />
+          </div>
+          <div class="card_content">
+            <div class="details">Learn Digital Marketing </div>
+          </div>
+        </div>
+      </div>
+      <div className="featuredItem">
+      <div class="uppercard">
+          <div class="imgBx">
+          <img src={logo1} className="img" alt="" />
+          </div>
+          <div class="card_content">
+            <div class="details">Excel With Python Programming</div>
+          </div>
+        </div>
+      </div>
+      <div className="featuredItem">
+      <div class="uppercard">
+          <div class="imgBx">
+          <img src={logo} className="img" alt="" />
+          </div>
+          <div class="card_content">
+            <div class="details">Grow your career with PHP programming</div>
+          </div>
+        </div>
       </div>
     </div>
     </div>
