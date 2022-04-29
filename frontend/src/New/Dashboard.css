@@ -1,5 +1,5 @@
-.container{
-    display: flex;
+#container-content{
+    display: block;
     margin-top: 10px;
 }
 

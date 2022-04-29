@@ -9,45 +9,65 @@ font-weight: bold;
 }
 
 .featured {
-  width: 1500px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
 }
-
-.featuredItem {
-  width: 500px;
-  flex: 1;
-  margin: 0px 20px;
-  padding: 30px;
-  border-radius: 10px;
-  cursor: pointer;
-  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+.featuredItem{
+    padding-top: 100px;
+    padding-bottom: 400px;
 }
 
 .featuredTitle{
     font-size: 20px;
 }
-
-.featuredMoneyContainer{
-    margin: 10px 0px;
+.uppercard{
+    position: absolute;
+    width: 350px;
+    height: 190px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 30px 40px #AFD6FF;
+    transition: 0.5s;
+}
+.uppercard:hover{
+    height: 400px;
+}
+.imgBx{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px #DBC4FF;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.uppercard:hover .imgBx{
+    width: 250px;
+    height: 250px;
+}
+.imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_content{
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
-
-.featuredMoney{
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.featuredMoneyRate{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.featuredSub{
-    font-size: 15px;
-    color: gray;
- 
+.details{
+    padding: 100px;
+    text-align: center;
+    width: 200%;
+    transition: 0.5s;
 }

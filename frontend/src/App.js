@@ -15,6 +15,7 @@ import NewProduct from './New/pages/newProduct/NewProduct';
 import JobLists from './components/JobContent/JobLists';
 import JobDetails from './components/JobContent/JobDetails';
 import ResumePage from './components/ResumeContent/ResumePage';
+import Puzzles from './components/Home/Puzzles';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/puzzles" element={<Puzzles />} />
           <Route path="/login" element={<Login />} />
           <Route path="/login/new" element={<Register />} />
           <Route path="/dashboard" element={<DashboardHome />}/>
