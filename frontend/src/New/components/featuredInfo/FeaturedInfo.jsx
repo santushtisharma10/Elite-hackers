@@ -46,7 +46,7 @@ export default function FeaturedInfo() {
           <img src={logo} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">FGrow your career with PHP programming</div>
+            <div class="details">Grow your career with PHP programming</div>
           </div>
         </div>
       </div>
