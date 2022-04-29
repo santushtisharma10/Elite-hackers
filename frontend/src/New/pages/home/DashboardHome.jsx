@@ -13,7 +13,9 @@ export default function Home() {
     <div>
       <Topbar />
       <div className="container">
+        <div className="sidebaar">
         <Sidebar />
+        </div>
         <div className="home">
         <FeaturedInfo />
           <Chart data={userData} title="User Analytics" grid dataKey="Active User"/>
