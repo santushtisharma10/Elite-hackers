@@ -93,3 +93,13 @@
     padding: 0 1em;
   }
 }
+
+.row_1{
+  display: flex;
+  flex-direction: row;
+}
+
+.row_2{
+  display: flex;
+  flex-direction: row;
+}
