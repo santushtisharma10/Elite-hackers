@@ -18,7 +18,8 @@ const Puzzles = () => {
                  <h2 class="text">What is this platform about?</h2>
             </div>
             <div class="flip-box-back">
-                <h2 class="text">Back Side</h2>
+                <h2 class="text">This platform provides community and mentorship for early stage startup along with resources that can help them thrive the fierce market competition.
+</h2>
             </div>
         </div>
     </div><br></br>
