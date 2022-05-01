@@ -1,14 +1,5 @@
-.moveTop {
+
   
-    display: none;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-  }
-  .btn {
-    position: absolute;
-    bottom: 0;
-  }
 #caption{
     color: #59cff7;
     font-size: 38px;
