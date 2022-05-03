@@ -15,5 +15,13 @@ export const data = [
         bgImg:"image",
         designation:"back end developer",
         description:"Lorem Ipsum Text"
+    },
+    {
+        key:"mentor1", 
+        name:"reeha",
+        src:"imgUrl",
+        bgImg:"image",
+        designation:"back end developer",
+        description:"Lorem Ipsum Text"
     }
 ]

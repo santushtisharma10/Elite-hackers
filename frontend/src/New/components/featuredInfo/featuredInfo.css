@@ -9,7 +9,7 @@ font-weight: bold;
 }
 
 .featured {
-  width: 1200px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
 }
@@ -23,7 +23,7 @@ font-weight: bold;
 }
 .uppercard{
     position: absolute;
-    width: 350px;
+    width: 280px;
     height: 190px;
     background: #fff;
     border-radius: 20px;

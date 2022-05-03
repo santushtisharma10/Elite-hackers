@@ -16,6 +16,8 @@ import JobLists from './components/JobContent/JobLists';
 import JobDetails from './components/JobContent/JobDetails';
 import ResumePage from './components/ResumeContent/ResumePage';
 import Puzzles from './components/Home/Puzzles';
+import Chatbot from './components/Content/Chatbot';
+import MentorCard from './components/Mentors/MentorCard';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
           <Route path="/dashboard/newproduct" element={<NewProduct />}/>
           <Route path="/jobs" element={<JobLists />}/>
           <Route path="/jobs/:position" element={<JobDetails />}/>
+          <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/mentor" element={<MentorCard />}/>
           
           <Route path="/resume" element={<ResumePage />}/>
         </Routes>

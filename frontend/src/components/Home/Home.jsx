@@ -8,6 +8,7 @@ import idea from "../pictures/idea.jpeg";
 import interests from "../pictures/interests.png";
 import growth from "../pictures/growth.png";
 import { NavLink } from 'react-router-dom';
+import Chatbot from '../Content/Chatbot.js';
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
       </div>
     </div>
     </section>
-   
+   {/* <Chatbot /> */}
     <main class="cards">
   <section class="card contact">
           <img src={idea} id="card-images"  />
@@ -53,6 +54,8 @@ export default function Home() {
             <button>Learn More</button>
         </section>
         </main>
+       
+        
       <Timeline />
       
       <Footer />
