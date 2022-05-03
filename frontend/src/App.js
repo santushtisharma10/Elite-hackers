@@ -18,6 +18,8 @@ import ResumePage from './components/ResumeContent/ResumePage';
 import Puzzles from './components/Home/Puzzles';
 import Chatbot from './components/Content/Chatbot';
 import MentorCard from './components/Mentors/MentorCard';
+import ContactUs from './components/ContactUs/ContactUs.js';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
           <Route path="/mentor" element={<MentorCard />}/>
           
           <Route path="/resume" element={<ResumePage />}/>
+          <Route path="/contact" element={<ContactUs />}/>
+          <Route path="/about" element={<AboutUs />}/>
         </Routes>
       </Router>
     </div>
