@@ -59,6 +59,7 @@ export default function Home() {
       <Timeline />
       
       <Footer />
+      <Chatbot />
       </>
      
   )

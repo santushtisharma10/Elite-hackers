@@ -10,7 +10,7 @@ function focusFunc() {
 
 function blurFunc() {
   let parent = this.parentNode;
-  if (this.value == "") {
+  if (this.value === "") {
     parent.classList.remove("focus");
   }
 }

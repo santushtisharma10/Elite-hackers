@@ -2,7 +2,7 @@ import React from 'react';
 import './Dashboard.css';
 import Sidebar from '../Sidebar/Sidebar';
 import Content from '../Content/Content';
-import Navbar from "../Home/Navbar"
+import Chatbot from '../Content/Chatbot';
 
 function Dashboard() {
   return (
@@ -26,7 +26,7 @@ function Dashboard() {
           <Content />
         </div>
         
-      
+        <Chatbot />
     </div>
   )
 }

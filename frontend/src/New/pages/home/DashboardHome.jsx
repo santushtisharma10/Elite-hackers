@@ -6,6 +6,7 @@ import WidgetSm from "../../components/widgetSm/WidgetSm";
 import WidgetLg from "../../components/widgetLg/WidgetLg";
 import Sidebar from "../../../New/components/sidebar/Sidebar";
 import Topbar from "../../components/topbar/Topbar";
+import Chatbot from "../../../components/Content/Chatbot";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Chatbot />
     </div>
   );
 }

@@ -39,7 +39,7 @@ function Register() {
 
         e.preventDefault()
         // if pwd and rePwd is different return error
-        if (user.pwd != user.rePwd) {
+        if (user.pwd !== user.rePwd) {
 
             setError(true)
             setErrorMsg("Password does not match")
@@ -77,7 +77,7 @@ function Register() {
              {error && <div className='login__error'>{errorMsg}</div>}
             <div className='login__container'>
             <div className='login-container__img'>
-                    <img src="https://assets.rbl.ms/25590936/origin.jpg" />
+                    <img src="https://assets.rbl.ms/25590936/origin.jpg" alt="login_image" />
                 </div>
                 <div className='login-container__text'>
             <h1 className='login_text__heading'>Registeration</h1>
