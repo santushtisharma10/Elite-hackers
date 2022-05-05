@@ -5,6 +5,16 @@ import { ThemeProvider } from "styled-components";
 function Chatbot() {
   const steps = [
     {
+      id: "Hi",
+      message: "Hey! How are you doing today?",
+      trigger: "user",
+    },
+    {
+      id: "user",
+      user: true,
+      trigger: "1",
+    },
+    {
       id: "1",
       message: "What are you looking for today?",
       trigger: "2",
@@ -56,7 +66,7 @@ function Chatbot() {
 
   return (
     <ThemeProvider theme={theme}>
-      <ChatBot steps={steps} {...config} />
+      <ChatBot recognitionEnable={true} steps={steps} {...config} />
     </ThemeProvider>
   );
 }
