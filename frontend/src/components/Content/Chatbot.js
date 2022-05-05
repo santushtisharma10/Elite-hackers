@@ -1,5 +1,6 @@
 import React from "react";
 import ChatBot from "react-simple-chatbot";
+import { ThemeProvider } from "styled-components";
 
 function Chatbot() {
   const steps = [
@@ -41,7 +42,23 @@ function Chatbot() {
     floating: true,
   };
 
-  return <ChatBot steps={steps} {...config} />;
+  const theme = {
+    background: "white",
+    fontFamily: "Arial, Helvetica, sans-serif",
+    headerBgColor: "#1486ed",
+    headerFontColor: "#fff",
+    headerFontSize: "25px",
+    botBubbleColor: "#1486ed",
+    botFontColor: "#fff",
+    userBubbleColor: "#fff",
+    userFontColor: "#4c4c4c",
+  };
+
+  return (
+    <ThemeProvider theme={theme}>
+      <ChatBot steps={steps} {...config} />
+    </ThemeProvider>
+  );
 }
 
 export default Chatbot;
