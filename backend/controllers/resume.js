@@ -11,10 +11,10 @@ export const getAllResume = async (req, res) => {
 
 export const getMyResume = async (req, res) => {
   try {
-    const resume = await resume
+    const resume1 = await resume
       .find({ author: req.user.id })
       .sort({ UpdatedAt: -1 });
-    res.status(200).json(resume);
+    res.status(200).json(resume1);
   } catch (error) {
     res.status(404).json({ message: error.message });
   }
