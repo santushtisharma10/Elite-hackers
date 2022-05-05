@@ -42,7 +42,7 @@
   
   /* Style the back side */
   .flip-box-back {
-    background-color: rgb(7, 7, 7);
+    background-color: black;
     transform: rotateY(180deg);
   }
   .text{
