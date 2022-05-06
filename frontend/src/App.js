@@ -21,6 +21,7 @@ import MentorCard from './components/Mentors/MentorCard';
 import ContactUs from './components/ContactUs/ContactUs.js';
 import AboutUs from './components/AboutUs/AboutUs';
 import ChatMain from './components/Chat/ChatMain';
+import Course from './components/Course/Course';
 
 function App() {
   return (
@@ -42,11 +43,11 @@ function App() {
           <Route path="/jobs/:position" element={<JobDetails />}/>
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/mentor" element={<MentorCard />}/>
-          
           <Route path="/resume" element={<ResumePage />}/>
           <Route path="/contact" element={<ContactUs />}/>
           <Route path="/about" element={<AboutUs />}/>
           <Route path="/chat" element={<ChatMain />}/>
+          <Route path="/course" element={<Course />}/>
         </Routes>
       </Router>
     </div>
