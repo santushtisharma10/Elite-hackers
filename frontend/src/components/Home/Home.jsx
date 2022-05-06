@@ -8,7 +8,7 @@ import idea from "../pictures/idea.jpeg";
 import interests from "../pictures/interests.png";
 import growth from "../pictures/growth.png";
 import { NavLink } from 'react-router-dom';
-import Chatbot from '../Content/Chatbot.js';
+import AboutUs from '../AboutUs/AboutUs.js';
 
 export default function Home() {
   return (
@@ -35,33 +35,26 @@ export default function Home() {
     </section>
    {/* <Chatbot /> */}
     <main class="cards">
-  <section class="card contact">
-          <img src={idea} id="card-images"  />
-            <h3>Give wings to your ideas</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            <button>Learn More</button>
-        </section>
-        <section class="card shop">
-                <img src={interests} id="card-images" />
-            <h3>Channelize your interests</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            <button>Learn More</button>
-        </section>
-        <section class="card about">
-           <img src={growth} id="card-images"  />
-              <h3>Take Forward your career</h3>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-            <button>Learn More</button>
-        </section>
-        </main>
-       
-        
-      <Timeline />
-      
-      <Footer />
-      <Chatbot />
-      </>
-     
+      <section class="card contact">
+              <img src={idea} id="card-images"  />
+                <h3>Give wings to your ideas</h3>
+                <span>Think , Foster and Grow your ideas</span>
+      </section>
+      <section class="card shop">
+                    <img src={interests} id="card-images" />
+                <h3>Channelize your interests</h3>
+                <span>Upskill yourself and begin with your favourite Courses!</span>
+      </section>
+      <section class="card about">
+              <img src={growth} id="card-images"  />
+                  <h3>Take Forward your career</h3>
+                <span>Explore our features and boost your career.</span>
+      </section>
+    </main>
+    <Timeline />
+    <AboutUs />
+  <Footer />
+ </>   
   )
 }
 

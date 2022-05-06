@@ -14,7 +14,6 @@ function Dashboard() {
   return (
     <Router>
       <Topbar />
-      <div class="container" id="container-content">
         <Sidebar />
         <Routes>
           <Route path="/">
@@ -39,7 +38,6 @@ function Dashboard() {
             <NewProduct />
           </Route>
         </Routes>
-      </div>
     </Router>
   );
 }

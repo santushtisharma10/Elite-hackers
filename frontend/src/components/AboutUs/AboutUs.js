@@ -4,13 +4,14 @@ import Img from '../../Asset/home-img.svg';
 
 function AboutUs() {
   return (
-    <div className='bodyy'>
+    <div className='bodyy' id="AboutUs">
         <div class="containerr">
         <section class="home">
         <div class="content">
             <h3>E-learning is a better way of learning</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia repellat aperiam libero, beatae debitis iusto quia sit aliquid placeat facilis?</p>
-            <a href="#" class="btn">Learn More</a>
+            <p>Learn , Explore and Engage yourself with one - on -mentorship Support.</p>
+            <p>Dive Deep to know about our Project :)</p>
+            
         </div>
         <div class="image">
             <img src={Img} alt=""></img>

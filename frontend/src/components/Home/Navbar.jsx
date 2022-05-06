@@ -1,5 +1,6 @@
 import React from "react";
-import {NavLink,Link } from "react-router-dom";
+import {NavLink} from "react-router-dom";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 const Navbar = () =>{
   return(
@@ -22,10 +23,7 @@ const Navbar = () =>{
           <NavLink className="nav-link" id="nav-link" to="/puzzles">FAQs</NavLink>
         </li>
         <li className="nav-item" id="nav-item">
-          <NavLink className="nav-link" id="nav-link" to="/chatBot">ChatBot</NavLink>
-        </li>
-        <li className="nav-item" id="nav-item">
-          <NavLink className="nav-link" id="nav-link" to="/about">About Us</NavLink>
+        <NavLink className="nav-link" id="AboutUs" to="/AboutUs">AboutUs</NavLink>
         </li>
         <li className="nav-item" id="nav-item">
           <NavLink className="nav-link" id="nav-link" to="/contact">Contact Us</NavLink>
