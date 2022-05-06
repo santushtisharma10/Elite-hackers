@@ -29,7 +29,7 @@ const Puzzles = () => {
                  <h2 class="text">Who should use this platform ?</h2>
             </div>
             <div class="flip-box-back">
-                <h2 class="text">Back Side</h2>
+                <h2 class="text">Anyone interested in enterpreneurship.</h2>
             </div>
         </div>
     </div><br></br>
@@ -39,7 +39,7 @@ const Puzzles = () => {
                  <h2 class="text">Are services free to use?</h2>
             </div>
             <div class="flip-box-back">
-                <h2 class="text">Back Side</h2>
+                <h2 class="text">Our platform is free to use.</h2>
             </div>
         </div>
     </div><br></br>
@@ -49,7 +49,7 @@ const Puzzles = () => {
                  <h2 class="text">Who should take an online course?</h2>
             </div>
             <div class="flip-box-back">
-                <h2 class="text">Back Side</h2>
+                <h2 class="text">Anyone who is curious to learn and explore new things</h2>
             </div>
         </div>
     </div><br></br>
@@ -79,7 +79,7 @@ const Puzzles = () => {
                  <h2 class="text">How should I prepare for my interview</h2>
             </div>
             <div class="flip-box-back">
-                <h2 class="text">Back Side</h2>
+                <h2 class="text">You can visit courses section to learn the required technical and non-technical skills for job.</h2>
             </div>
         </div>
     </div><br></br>

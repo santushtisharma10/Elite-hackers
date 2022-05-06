@@ -21,15 +21,14 @@ return (
 		</Column>
 		<Column>
 			<Heading>Company</Heading>
-			<FooterLink href="#">Mission</FooterLink>
+			<FooterLink href="#">AboutUs</FooterLink>
 			<FooterLink href="#">Career</FooterLink>
 			<FooterLink href="#">Courses</FooterLink>
 			
 		</Column>
 		<Column>
 			<Heading>Impact</Heading>
-			<FooterLink href="#">Creators awards</FooterLink>
-			<FooterLink href="#">Ideas </FooterLink>
+			<FooterLink href="#">Timelines </FooterLink>
 			<FooterLink href="#">Services and Testimonials</FooterLink>
 			
 		</Column>

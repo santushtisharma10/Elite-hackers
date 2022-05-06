@@ -3,8 +3,7 @@ import {BrowserRouter as Router , Routes, Route } from "react-router-dom"
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-// import Dashboard from './components/Dashboard/Dashboard';
-
+import {Link} from "react-scroll";
 import DashboardHome from './New/pages/home/DashboardHome.jsx';
 import UserList from './New/pages/userList/UserList';
 import NewUser from './New/pages/newUser/NewUser';
@@ -18,6 +17,10 @@ import ResumePage from './components/ResumeContent/ResumePage';
 import Puzzles from './components/Home/Puzzles';
 import Chatbot from './components/Content/Chatbot';
 import MentorCard from './components/Mentors/MentorCard';
+import ContactUs from './components/ContactUs/ContactUs.js';
+import AboutUs from './components/AboutUs/AboutUs';
+import ChatMain from './components/Chat/ChatMain';
+import Course from './components/Course/Course';
 
 function App() {
   return (
@@ -39,8 +42,11 @@ function App() {
           <Route path="/jobs/:position" element={<JobDetails />}/>
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/mentor" element={<MentorCard />}/>
-          
           <Route path="/resume" element={<ResumePage />}/>
+          <Route path="/contact" element={<ContactUs />}/>
+          <Route path="/AboutUs" element={<AboutUs />}/>
+          <Route path="/chat" element={<ChatMain />}/>
+          <Route path="/course" element={<Course />}/>
         </Routes>
       </Router>
     </div>
