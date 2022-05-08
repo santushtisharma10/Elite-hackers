@@ -14,7 +14,6 @@ export default function WidgetLg() {
   return (
     <div className="widgetLg">
       <div class="row">
-       <div className="row_1">
         <div class="column">
           <div class="card">
           <img src={img1} className="img1" alt="" />
@@ -44,9 +43,8 @@ export default function WidgetLg() {
                </p>
           </div>
         </div>
-        </div>
+
         <br />
-        <div className="row_2">
          <div class="column">
           <div class="card">
           <img src={img4} className="img1" alt="" />
@@ -65,7 +63,7 @@ export default function WidgetLg() {
                </p>
           </div>
         </div>
-        <div class="column">
+        {/* <div class="column">
           <div class="card">
             <div class="icon">
               <i class="fa-solid fa-headset"></i>
@@ -75,8 +73,7 @@ export default function WidgetLg() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
                </p>
           </div>
-        </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

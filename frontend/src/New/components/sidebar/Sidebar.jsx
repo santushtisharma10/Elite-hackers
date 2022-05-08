@@ -36,32 +36,24 @@ export default function Sidebar() {
             <Link to="/users" className="link">
               <li className="sidebarListItem">
                 <PermIdentity className="sidebarIcon" />
-                Users
+                Courses
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
-                Products
+                1-1 mentor
               </li>
             </Link>
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
-                Reports
+                Get Hired
             </li>
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Notifications</h3>
-          <ul className="sidebarList">
-            <li className="sidebarListItem">
-              <MailOutline className="sidebarIcon" />
-              Mail
-            </li>
-            <li className="sidebarListItem">
-              <DynamicFeed className="sidebarIcon" />
-              Feedback
-            </li>
+          <h3 className="sidebarTitle">Mentor Support</h3>
+          <ul className="sidebarList">            
             <li className="sidebarListItem">
               <ChatBubbleOutline className="sidebarIcon" />
               Messages
@@ -69,19 +61,15 @@ export default function Sidebar() {
           </ul>
         </div>
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Staff</h3>
+          <h3 className="sidebarTitle">Courses</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
               <WorkOutline className="sidebarIcon" />
-              Manage
+              Browse Courses
             </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <Report className="sidebarIcon" />
-              Reports
+              Completed Courses
             </li>
           </ul>
         </div>
