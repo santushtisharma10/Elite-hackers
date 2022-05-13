@@ -7,7 +7,7 @@ import logo3 from "../pictures/figma-logo-2_4x.webp";
 export default function FeaturedInfo() {
   return (
     <div>
-    <div className="topheader">Learn New Skills</div>
+    <div className="topheader">what's in store for you</div>
     
     <div className="featured">
       <div className="featuredItem">
@@ -37,6 +37,16 @@ export default function FeaturedInfo() {
           </div>
           <div class="card_content">
             <div class="details">Excel With Python Programming</div>
+          </div>
+        </div>
+      </div>
+      <div className="featuredItem">
+      <div class="uppercard">
+          <div class="imgBx">
+          <img src={logo} className="img" alt="" />
+          </div>
+          <div class="card_content">
+            <div class="details">Grow your career with PHP programming</div>
           </div>
         </div>
       </div>

@@ -1,13 +1,15 @@
 .home{
     flex: 4;
+    margin-left: 250px;
 }
 
 .homeWidgets{
     display: flex;
     margin: 20px;
+    flex-direction: row;
 }
 
-.container{
+.dashboard_container{
     display: flex;
     width: 100vw;
 }

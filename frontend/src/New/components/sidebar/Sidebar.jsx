@@ -73,6 +73,15 @@ export default function Sidebar() {
             </li>
           </ul>
         </div>
+        <div className="sidebarMenu">
+          <h3 className="sidebarTitle">Miscellaneous</h3>
+          <ul className="sidebarList">
+            <li className="sidebarListItem">
+              <DynamicFeed className="sidebarIcon" />
+              Give Feedback
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

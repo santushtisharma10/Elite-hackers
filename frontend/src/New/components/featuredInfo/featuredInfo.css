@@ -5,17 +5,19 @@ font-weight: bold;
 }
 
 .img{
-    width: 200px;
+    width: 100px;
 }
 
 .featured {
-  width: 900px;
+  width: 700px;
   display: flex;
-  justify-content: space-between;
+  
 }
 .featuredItem{
     padding-top: 100px;
     padding-bottom: 400px;
+    margin-right: 100px;
+    margin-left: 90px;
 }
 
 .featuredTitle{
@@ -23,7 +25,7 @@ font-weight: bold;
 }
 .uppercard{
     position: absolute;
-    width: 280px;
+    width: 190px;
     height: 190px;
     background: #fff;
     border-radius: 20px;

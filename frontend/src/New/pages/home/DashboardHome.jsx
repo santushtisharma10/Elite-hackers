@@ -13,13 +13,13 @@ export default function Home() {
   return (
     <div>
       <Topbar />
-      <div className="container">
+      <div className="dashboard_container">
         <div className="sidebaar">
         <Sidebar />
         </div>
         <div className="home">
-        {/* <FeaturedInfo /> */}
-        <WidgetLg/>
+        <FeaturedInfo />
+        {/* <WidgetLg/> */}
           <Chart data={userData} title="User Analytics" grid dataKey="Active User"/>
           <div className="homeWidgets">
             <WidgetSm/>
