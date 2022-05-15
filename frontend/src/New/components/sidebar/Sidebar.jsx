@@ -34,35 +34,46 @@ export default function Sidebar() {
         <div className="sidebarMenuu">
           <h3 className="sidebarTitlee">Quick Menu</h3>
           <ul className="sidebarList">
-            {/* <Link to="/users" className="link"> */}
+            <Link to="/course" className="link">
               <li className="sidebarListItem">
                 <PermIdentity className="sidebarIcon" />
                 Courses
               </li>
-            {/* </Link> */}
-            {/* <Link to="/products" className="link"> */}
+            </Link>
+            <br />
+            <Link to="/mentorExtra" className="link">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 1-1 mentor
               </li>
-            {/* </Link> */}
-            <li className="sidebarListItem">
-              <BarChart className="sidebarIcon" />
-                Get Hired
-            </li>
+            </Link>
+            <br />
+            <Link to="/jobs" className="link">
+              <li className="sidebarListItem">
+                <BarChart className="sidebarIcon" />
+                  Get Hired
+              </li>
+            </Link>
+            <br />
           </ul>
         </div>
 
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Mentor Support</h3>
-          <ul className="sidebarList">            
+        {/* <div className="sidebarMenu">
+        <br />
+          <h3 className="sidebarTitlee">Mentor Support</h3>
+          <br />
+          <ul className="sidebarList">
+          <Link to="/products" className="link">            
             <li className="sidebarListItem">
               <ChatBubbleOutline className="sidebarIcon" />
               Messages
             </li>
+          </Link>
+          <br />
           </ul>
-        </div>
-        <div className="sidebarMenu">
+        </div> */}
+        {/* <div className="sidebarMenu">
+          <br />
           <h3 className="sidebarTitle">Courses</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
@@ -74,14 +85,19 @@ export default function Sidebar() {
               Completed Courses
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="sidebarMenu">
+          <br />
+          <br />
           <h3 className="sidebarTitle">Miscellaneous</h3>
           <ul className="sidebarList">
+          <Link to="/contact" className="link">      
             <li className="sidebarListItem">
               <DynamicFeed className="sidebarIcon" />
               Give Feedback
             </li>
+          </Link>
+          <br />
           </ul>
         </div>
       </div>
