@@ -21,6 +21,7 @@ import ContactUs from './components/ContactUs/ContactUs.js';
 import AboutUs from './components/AboutUs/AboutUs';
 import ChatMain from './components/Chat/ChatMain';
 import Course from './components/Course/Course';
+import Book from './components/Book_Components/Book';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />}/>
           <Route path="/chat" element={<ChatMain />}/>
           <Route path="/course" element={<Course />}/>
+          <Route path="/books" element={<Book />}/>
         </Routes>
       </Router>
     </div>
