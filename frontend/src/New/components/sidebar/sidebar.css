@@ -10,13 +10,19 @@
   color: #555;
 }
 
-.sidebarMenu {
+.sidebarMenuu {
   margin-bottom: 10px;
 }
 
 .sidebarTitle {
   font-size: 13px;
   color: rgb(187, 186, 186);
+}
+
+.sidebarTitlee {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+  margin-top: 50px;
 }
 
 .sidebarList {

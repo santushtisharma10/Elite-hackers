@@ -16,12 +16,12 @@ import JobDetails from './components/JobContent/JobDetails';
 import ResumePage from './components/ResumeContent/ResumePage';
 import Puzzles from './components/Home/Puzzles';
 import Chatbot from './components/Content/Chatbot';
-import MentorCard from './components/Mentors/MentorCard';
 import ContactUs from './components/ContactUs/ContactUs.js';
 import AboutUs from './components/AboutUs/AboutUs';
 import ChatMain from './components/Chat/ChatMain';
 import Course from './components/Course/Course';
 import Book from './components/Book_Components/Book';
+import MentorCard from './components/Mentors/MentorCard';
 
 function App() {
   return (
@@ -42,7 +42,8 @@ function App() {
           <Route path="/jobs" element={<JobLists />}/>
           <Route path="/jobs/:position" element={<JobDetails />}/>
           <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/mentor" element={<MentorCard />}/>
+          <Route path="/mentorExtra" element={<MentorCard />}/>
+
           <Route path="/resume" element={<ResumePage />}/>
           <Route path="/contact" element={<ContactUs />}/>
           <Route path="/AboutUs" element={<AboutUs />}/>

@@ -30,27 +30,29 @@ export default function Sidebar() {
             </Link>
           </ul>
         </div>
-        <div className="sidebarMenu">
-          <h3 className="sidebarTitle">Quick Menu</h3>
+
+        <div className="sidebarMenuu">
+          <h3 className="sidebarTitlee">Quick Menu</h3>
           <ul className="sidebarList">
-            <Link to="/users" className="link">
+            {/* <Link to="/users" className="link"> */}
               <li className="sidebarListItem">
                 <PermIdentity className="sidebarIcon" />
                 Courses
               </li>
-            </Link>
-            <Link to="/products" className="link">
+            {/* </Link> */}
+            {/* <Link to="/products" className="link"> */}
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 1-1 mentor
               </li>
-            </Link>
+            {/* </Link> */}
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
                 Get Hired
             </li>
           </ul>
         </div>
+
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Mentor Support</h3>
           <ul className="sidebarList">            
