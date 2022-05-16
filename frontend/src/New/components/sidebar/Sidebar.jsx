@@ -55,6 +55,14 @@ export default function Sidebar() {
               </li>
             </Link>
             <br />
+            <br />
+            <Link to="/resume" className="link">
+              <li className="sidebarListItem">
+                <BarChart className="sidebarIcon" />
+                  Build Resume
+              </li>
+            </Link>
+            <br />
           </ul>
         </div>
 
