@@ -44,13 +44,13 @@ export default function Sidebar() {
             <Link to="/mentorExtra" className="link">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
-                1-1 mentor
+                Excel with mentor
               </li>
             </Link>
             <br />
             <Link to="/jobs" className="link">
               <li className="sidebarListItem">
-                <BarChart className="sidebarIcon" />
+                <WorkOutline className="sidebarIcon" />
                   Get Hired
               </li>
             </Link>
@@ -58,8 +58,25 @@ export default function Sidebar() {
             <br />
             <Link to="/resume" className="link">
               <li className="sidebarListItem">
-                <BarChart className="sidebarIcon" />
+                <DynamicFeed className="sidebarIcon" />
                   Build Resume
+              </li>
+            </Link>
+            <br />
+            <br />
+            <Link to="/contact" className="link">
+              <li className="sidebarListItem">
+                <BarChart className="sidebarIcon" />
+                  Give Feedback
+              </li>
+            </Link>
+            <br />
+
+            <br />
+            <Link to="/calendar" className="link">
+            <li className="sidebarListItem">
+                <BarChart className="sidebarIcon" />
+                  Add to Calendar
               </li>
             </Link>
             <br />
@@ -94,7 +111,7 @@ export default function Sidebar() {
             </li>
           </ul>
         </div> */}
-        <div className="sidebarMenu">
+        {/* <div className="sidebarMenu">
           <br />
           <br />
           <h3 className="sidebarTitle">Miscellaneous</h3>
@@ -107,7 +124,7 @@ export default function Sidebar() {
           </Link>
           <br />
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

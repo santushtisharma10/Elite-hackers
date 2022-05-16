@@ -22,6 +22,7 @@ import ChatMain from './components/Chat/ChatMain';
 import Course from './components/Course/Course';
 import Book from './components/Book_Components/Book';
 import MentorCard from './components/Mentors/MentorCard';
+import WidgetSm from './New/components/widgetSm/WidgetSm';
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
           <Route path="/jobs/:position" element={<JobDetails />}/>
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/mentorExtra" element={<MentorCard />}/>
-
+          <Route path="/calendar" element={<WidgetSm />}/> 
           <Route path="/resume" element={<ResumePage />}/>
           <Route path="/contact" element={<ContactUs />}/>
           <Route path="/AboutUs" element={<AboutUs />}/>
