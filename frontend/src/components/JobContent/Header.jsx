@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <header className="header">
-        <div className="container">
-          <h1>Get Placed</h1>
+        <div className="header_container">
+          <h1>Find your perfect job match</h1>
         </div>
       </header>
     </div>

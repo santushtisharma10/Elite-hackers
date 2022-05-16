@@ -3,14 +3,14 @@
 #caption{
     color: #59cff7;
     font-size: 38px;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 #sub-caption{
     font-size: 20px;
 }
 #btn{
-    background-color: #ffff;
-    color: black;
+    background-color: #3498db;
+    color: white;
     border: 2px solid #3498db;
     border-radius: 40px;
     padding: 10px 20px;
@@ -30,8 +30,8 @@
     transform: scale(1,1);
 }
 #btn:hover{
-    background-color: #3498db;
-    color: #ffff;
+    background-color: #ffff;
+    color: black;
 }
 #floating{
     animation-name: floating;

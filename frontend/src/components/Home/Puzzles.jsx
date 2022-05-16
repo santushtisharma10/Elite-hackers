@@ -5,8 +5,9 @@ import puzzles from "../pictures/puzzles.jpg";
 const Puzzles = () => {
   return (
 <div style={{overflowY:"scroll"}}>
+    <div class="puzzleImg">
+      <img src={puzzles} className="image" id="floating" alt="homeimg" /> </div><div class="puzzle__container">
 
-      <img src={puzzles} className="image" id="floating" alt="homeimg" /><div class="puzzle__container">
     <div class="row">
         <span class="text1">Welcome Onboard!</span>
         <span class="text2">Unleash The Best Potential.</span>
@@ -69,7 +70,7 @@ const Puzzles = () => {
                  <h2 class="text">How do I apply for a position?</h2>
             </div>
             <div class="flip-box-back">
-                <h2 class="text">Visit Jobs page and view our current open positions. After reviewing the requirements, if your skills meet the specific requirements for one or more positions, please click “Apply for this Job” and complete all fields on the application. If no position meets your current interest, you can Submit Resume to us for future consideration.</h2>
+                <h2 class="text">Visit Jobs page and view our current open positions. After reviewing the requirements, if your skills meet the specific requirements for one or more positions, please click “Apply for this Job” and complete all fields on the application.</h2>
             </div>
         </div>
     </div><br></br>

@@ -6,6 +6,9 @@
     border-radius: 0px 0px 0px 50px;
   }
 
-  .header h1 {
+  .header_container h1 {
     color: #fff;
+    margin-left: 650px;
+    font-weight: 800;
+    font-size: larger;
   }

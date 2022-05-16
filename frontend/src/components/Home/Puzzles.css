@@ -1,7 +1,15 @@
 #floating{
     margin-top: 0px;
 }
+.puzzleImg {
 
+  display: flex;
+  justify-content: center;
+}
+.image {
+
+  width: 50%;
+}
 .flip-box {
    margin: auto;
     background-color: transparent;
@@ -42,11 +50,11 @@
   
   /* Style the back side */
   .flip-box-back {
-    background-color: black;
+    background-color: rgb(76, 240, 177);
     transform: rotateY(180deg);
   }
   .text{
-      color: #f1f1f1;
+      color: #df5e5e;
       text-align: center;
       margin: auto;
   }

@@ -5,17 +5,19 @@ font-weight: bold;
 }
 
 .img{
-    width: 200px;
+    width: 100px;
 }
 
 .featured {
-  width: 900px;
+  width: 700px;
   display: flex;
-  justify-content: space-between;
 }
 .featuredItem{
     padding-top: 100px;
     padding-bottom: 400px;
+    margin-right: 220px;
+    margin-left: 90px;
+    
 }
 
 .featuredTitle{
@@ -23,7 +25,7 @@ font-weight: bold;
 }
 .uppercard{
     position: absolute;
-    width: 280px;
+    width: 190px;
     height: 190px;
     background: #fff;
     border-radius: 20px;
@@ -32,6 +34,7 @@ font-weight: bold;
 }
 .uppercard:hover{
     height: 400px;
+    width: 300px;
 }
 .imgBx{
     position: absolute;
@@ -66,7 +69,8 @@ font-weight: bold;
     align-items: flex-end;
 }
 .details{
-    padding: 100px;
+    font-weight: bold;
+    padding: 90px;
     text-align: center;
     width: 200%;
     transition: 0.5s;

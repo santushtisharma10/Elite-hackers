@@ -63,3 +63,25 @@ export const otherSignup = async(req, res) => {
         return res.status(500).json({ message: "Something went wrong." });
     };
 };
+
+export const forgetPassword = async(req, res) => {
+    const { email, password, confirmPassword, name } = req.body;
+    try {
+        const existingUser = await User.findOne({ email });
+        if (!existingUser) {
+            return res.status(400).json({ message: "User does not already exists!" });
+        }
+        if (password !== confirmPassword)
+            return res.status(400).json({ message: "Passwords don't match." });
+        const encryptedPassword = await bcryptjs.hash(password, 12);
+        const result = await User.updateOne(
+            { _id: existingUser._id },
+            { $set: { password: encryptedPassword } },
+            { new: true }
+          );
+        const token = jwt.sign({ name: result.name, email: result.email, id: result._id}, 'test', { expiresIn: "30d" });
+        res.status(200).json({ result: result, token: token });
+    } catch (error) {
+        return res.status(500).json({ message: "Something went wrong." });
+    };
+};
