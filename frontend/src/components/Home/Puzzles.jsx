@@ -1,14 +1,16 @@
 import React from 'react';
 import "./Puzzles.css";
 import puzzles from "../pictures/puzzles.jpg";
+import Navbar from "./Navbar.jsx";
 
 const Puzzles = () => {
   return (
-<div style={{overflowY:"scroll"}}>
+<div style={{overflowY:"scroll"}} >
+    <Navbar />
     <div class="puzzleImg">
       <img src={puzzles} className="image" id="floating" alt="homeimg" /> </div><div class="puzzle__container">
 
-    <div class="row">
+    <div class="faq_row">
         <span class="text1">Welcome Onboard!</span>
         <span class="text2">Unleash The Best Potential.</span>
     </div>

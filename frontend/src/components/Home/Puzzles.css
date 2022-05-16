@@ -1,14 +1,14 @@
+
 #floating{
     margin-top: 0px;
 }
 .puzzleImg {
-
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
 .image {
-
-  width: 50%;
+  width: 40%;
 }
 .flip-box {
    margin: auto;
@@ -58,7 +58,10 @@
       text-align: center;
       margin: auto;
   }
- 
+.faq_row{
+  margin-top: 50px;
+} 
+
 .puzzle__container{
 	position: absolute;
     margin: auto;
