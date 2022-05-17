@@ -1,51 +1,55 @@
 export const userData = [
     {
-      name: "Jan",
-      "Active User": 4000,
+      name: "Data Science",
+      "Active User": 0,
     },
     {
-      name: "Feb",
-      "Active User": 3000,
+      name: "ReactJs",
+      "Active User": 30,
     },
     {
-      name: "Mar",
-      "Active User": 5000,
+      name: "Algebra",
+      "Active User": 50,
     },
     {
-      name: "Apr",
-      "Active User": 4000,
+      name: "Deep Leaning",
+      "Active User": 45,
     },
     {
-      name: "May",
-      "Active User": 3000,
+      name: "AI",
+      "Active User": 3,
     },
     {
-      name: "Jun",
-      "Active User": 2000,
+      name: "MongoDB",
+      "Active User": 20,
     },
     {
-      name: "Jul",
-      "Active User": 4000,
+      name: "Ethics",
+      "Active User": 70,
     },
     {
-      name: "Agu",
-      "Active User": 3000,
+      name: "Interview Prep",
+      "Active User": 30,
     },
     {
-      name: "Sep",
-      "Active User": 4000,
+      name: "Budget",
+      "Active User": 54,
     },
     {
-      name: "Oct",
-      "Active User": 1000,
+      name: "Big Data",
+      "Active User": 10,
     },
     {
-      name: "Nov",
-      "Active User": 4000,
+      name: "FinTech",
+      "Active User": 67,
     },
     {
-      name: "Dec",
-      "Active User": 3000,
+      name: "E-Commerce",
+      "Active User": 30,
+    },
+    {
+      name: "E-Commerce",
+      "Active User": 30,
     },
   ];
 

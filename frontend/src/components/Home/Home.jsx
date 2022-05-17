@@ -9,6 +9,7 @@ import interests from "../pictures/interests.png";
 import growth from "../pictures/growth.png";
 import { NavLink } from 'react-router-dom';
 import AboutUs from '../AboutUs/AboutUs.js';
+import Chatbot from "../Content/Chatbot";
 
 export default function Home() {
   return (
@@ -54,7 +55,7 @@ export default function Home() {
     <Timeline />
     <AboutUs />
   <Footer />
+  <Chatbot />
  </>   
   )
 }
-

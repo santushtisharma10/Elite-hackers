@@ -25,10 +25,10 @@ export default function WidgetSm() {
   const AddToCalendarDropdown = AddToCalendarHOC(ATCWrapper, ATCDropdown);
 
   return (
-    <div className="widgetSm" > 
-    <div className="left">     
-    <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}>
-      {percentage => (
+    <div  > 
+    {/* <div className="left">     
+    <ChangingProgressProvider values={[0, 20, 40, 60, 80, 100]}> */}
+      {/* {percentage => (
         <CircularProgressbar value={percentage} text={`${percentage}%`} />
       )}
     </ChangingProgressProvider>
@@ -36,13 +36,13 @@ export default function WidgetSm() {
       30 days Performance 
       <p>Measure your 30days performance metrics</p>
     </div>
-    </div>
+    </div> */}
     
-    <div className="right"> 
-    <div className="target">
+    {/* <div className="right">  */}
+    {/* <div className="target">
       Weekly Target
       <p>Get,Set and Track your Weekly Progress</p>
-    </div>
+    </div> */}
     <button>
       <AddToCalendarDropdown
         linkProps={{
@@ -51,7 +51,7 @@ export default function WidgetSm() {
         event={event}
       />
       </button>
-        </div>
+        {/* </div> */}
     </div>
   );
 }

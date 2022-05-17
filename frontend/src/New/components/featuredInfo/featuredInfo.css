@@ -1,73 +1,77 @@
 .topheader{
-font-size: 25px;
-padding: 20px;
-font-weight: bold;
-}
-
-.img{
-    width: 200px;
-}
-
-.featured {
-  width: 900px;
-  display: flex;
-  justify-content: space-between;
-}
-.featuredItem{
-    padding-top: 100px;
-    padding-bottom: 400px;
-}
-
-.featuredTitle{
-    font-size: 20px;
-}
-.uppercard{
-    position: absolute;
-    width: 280px;
-    height: 190px;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 30px 40px #AFD6FF;
-    transition: 0.5s;
-}
-.uppercard:hover{
-    height: 400px;
-}
-.imgBx{
-    position: absolute;
-    left: 50%;
-    top: -50px;
-    transform: translateX(-50%);
-    width: 150px;
-    height: 150px;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 15px 50px #DBC4FF;
-    overflow: hidden;
-    transition: 0.5s;
-}
-.uppercard:hover .imgBx{
-    width: 250px;
-    height: 250px;
-}
-.imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.card_content{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.details{
-    padding: 100px;
-    text-align: center;
-    width: 200%;
-    transition: 0.5s;
-}
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+    }
+    
+    .img{
+        width: 100px;
+    }
+    
+    .featured {
+      width: 700px;
+      display: flex;
+    }
+    .featuredItem{
+        padding-top: 100px;
+        padding-bottom: 400px;
+        margin-right: 220px;
+        margin-left: 90px;
+        
+    }
+    
+    .featuredTitle{
+        font-size: 20px;
+    }
+    .uppercard{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 30px 40px #AFD6FF;
+        transition: 0.5s;
+    }
+    .uppercard:hover{
+        height: 400px;
+        width: 300px;
+    }
+    .imgBx{
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 150px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 15px 50px #DBC4FF;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .uppercard:hover .imgBx{
+        width: 250px;
+        height: 250px;
+    }
+    .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card_content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .details{
+        font-weight: bold;
+        padding: 90px;
+        text-align: center;
+        width: 200%;
+        transition: 0.5s;
+    }

@@ -1,13 +1,13 @@
 import "./featuredInfo.css";
-import logo from "../pictures/php-logo.jpg";
-import logo1 from "../pictures/python-logo.png";
-import logo2 from "../pictures/digitalmarket.jpg";
-import logo3 from "../pictures/figma-logo-2_4x.webp";
+import logo from "../pictures/img1.PNG";
+import logo1 from "../pictures/img3.PNG";
+import logo2 from "../pictures/img4.PNG";
+import logo3 from "../pictures/img5.PNG";
 
 export default function FeaturedInfo() {
   return (
     <div>
-    <div className="topheader">Learn New Skills</div>
+    <div className="topheader">What's in store for you</div>
     
     <div className="featured">
       <div className="featuredItem">
@@ -16,7 +16,7 @@ export default function FeaturedInfo() {
           <img src={logo3} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Figma with UI/UX Design</div>
+            <div class="details">Get Your ATS friendly resume.</div>
           </div>
         </div>
         </div>
@@ -26,7 +26,7 @@ export default function FeaturedInfo() {
           <img src={logo2} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Learn Digital Marketing </div>
+            <div class="details">Grow and Prosper Your Business with us. </div>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function FeaturedInfo() {
           <img src={logo1} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Excel With Python Programming</div>
+            <div class="details"> Acquire the services to get hired!</div>
           </div>
         </div>
       </div>
@@ -46,9 +46,11 @@ export default function FeaturedInfo() {
           <img src={logo} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Grow your career with PHP programming</div>
+            <div class="details">Get Trained in best industry courses.</div>
           </div>
         </div>
+      </div>
+      <div className="featuredItem">
       </div>
     </div>
     </div>

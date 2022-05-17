@@ -102,6 +102,65 @@ export default function Course() {
         link: "https://www.udemy.com/course/vuejs-2-the-complete-guide/"
       }
     ],
+    Security: [
+      {
+        name: "AWS VPC Transit Gateway - Hands On Learning!",
+        image:
+          "https://www.openlogic.com/sites/openlogic/files/image/2019-07/image-blog-big-data-on-demand-with-mongodb.jpg",
+        instructor: "Kalyan Reddy Daida",
+        description:
+          "Learn AWS VPC Transit Gateway hands on by implementing 3 practical scenarios",
+        price: "Free",
+        link:
+          "https://www.udemy.com/course/aws-vpc-transit-gateway/"
+      },
+      {
+        name: "Security Awareness Campaigns (Lite)",
+        image:
+          "https://www.percona.com/blog/wp-content/uploads/2008/02/Finding-the-largest-tables-on-MySQL.jpg",
+        instructor: "Michael Goedeker",
+        description:
+          "This is the lite version of Security Awareness Campaigns and is meant to give you an idea of the full course.",
+        price: "Free",
+        link:
+          "https://www.udemy.com/course/security-awareness-campaigns/"
+      }
+    ],
+    Personality: [
+      {
+        name: "20 Free Life Hacks to Inspire You to Excel in Business &Life",
+        image:
+          "https://www.openlogic.com/sites/openlogic/files/image/2019-07/image-blog-big-data-on-demand-with-mongodb.jpg",
+        instructor: "Chris Haroun",
+        description:
+          "20 Free Videos to Inspire You to Live Your Life on Your Terms",
+        price: "Free",
+        link:
+          "https://www.udemy.com/course/20-life-hacks-to-inspire-you-to-excel-in-business-life/"
+      },
+      {
+        name: "Change Agility in the Workplace: Become a Change Agent",
+        image:
+          "https://www.percona.com/blog/wp-content/uploads/2008/02/Finding-the-largest-tables-on-MySQL.jpg",
+        instructor: "Colt Steele",
+        description:
+          "Become an agent of change by adopting the agility and resilience skills required in the evolving modern workplace.",
+        price: "Free",
+        link:
+          "https://www.udemy.com/course/change-agility-in-the-workplace-become-a-change-agent/"
+      },
+      {
+        name: "Ultimate Goal Setting and Achieving",
+        image:
+          "https://www.percona.com/blog/wp-content/uploads/2008/02/Finding-the-largest-tables-on-MySQL.jpg",
+        instructor: "Colt Steele",
+        description:
+          "Learn the secrets of the world's greatest achievers to help you turn your dreams into reality",
+        price: "Free",
+        link:
+          "https://www.udemy.com/course/ultimate-goal-setting-and-achieving/"
+      }
+    ],
     Databases: [
       {
         name: "MongoDB - The Complete Developer's Guide 2020",
@@ -154,10 +213,17 @@ export default function Course() {
 
   return (
     <div className="Course">
+<<<<<<< HEAD
       <div className="search_bar">
         <h1>Best Web Development Courses 👩‍💻</h1>
         <h4 className="tag-line">
           Here are some of the best web development online courses
+=======
+        <div className="search_bar">
+        <h1>Get yourself industry ready ... 👩‍💻</h1>
+        <h4 className="tag-line">
+            Offering some of the best courses to sharpen your knowledge and build the best potential at just one click.
+>>>>>>> 087d657b9e19186051cabc25e4164a5c419a9617
         </h4>
 
         <div>
