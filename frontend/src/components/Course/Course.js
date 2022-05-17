@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+// import base64_encode from "base-64"
 import "./Course.css";
 
 export default function Course() {
@@ -137,25 +138,39 @@ export default function Course() {
     setCategory(item);
   };
 
+  useEffect(async() => {
+
+    await fetch("https://www.udemy.com/api-2.0/courses/", {
+      method: "GET",
+      headers: {
+        "Accept": "application/json, text/plain, /",
+        "Authorization": "Basic M0p4N2RXeW11c1l0N2tHck13OFlQNG85NktNbmpSYUpQQTVSSGxkMzo2d1JCM3JVUkdqZkFZcXVFcGx3TTg1YmxCdE1CZ1M2eXlKY0RKckZWM21HeXFPQUh6cmNUZElpbHp4Z3dwdEh1TFh5YldvVHJjNm5rOXRqRzlVVjM5S3VKaUVvVDh4aUVyN3VNbFkwSmpvY0U0WG1YU0l6OEl5YnBXTm8yNFNCUA==",
+        "Content-Type": "application/json;charset=utf-8",
+      }
+    })
+    .then(res=>res.json())
+    .then(res=>console.log(res, "Hello i am here"))
+  }, [])
+
   return (
     <div className="Course">
-        <div className="search_bar">
+      <div className="search_bar">
         <h1>Best Web Development Courses 👩‍💻</h1>
         <h4 className="tag-line">
-            Here are some of the best web development online courses
+          Here are some of the best web development online courses
         </h4>
 
         <div>
-            {categoryKeys.map((item) => (
+          {categoryKeys.map((item) => (
             <button
-                className="category-btns"
-                onClick={categoryClickHandler.bind(this, item)}
+              className="category-btns"
+              onClick={categoryClickHandler.bind(this, item)}
             >
-                {item}
+              {item}
             </button>
-            ))}
+          ))}
         </div>
-       </div>     
+      </div>
 
       <hr />
 
