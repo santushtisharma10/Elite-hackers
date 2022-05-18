@@ -42,7 +42,6 @@ function JobLists() {
     await fetch("http://localhost:3000/jobs/", {
       method:"GET",
       headers:{
-        // "Authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmVlaGEiLCJlbWFpbCI6InJlZWhhQGdvb2dsZS5jb20iLCJpZCI6IjYyNmJiOWY2MzU4NmUyYjlhOTA0ZjMyNiIsImlhdCI6MTY1MTIyNzI1MywiZXhwIjoxNjUzODE5MjUzfQ.8It5-C1lC5NCfSk7pHlPAb3EyraqKjJC4HqHJpdWFkU",
         "Content-Type": "application/json;charset=utf-8",
         "Accept":"application/json, text/plain, /",
       }

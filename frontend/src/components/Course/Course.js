@@ -199,16 +199,16 @@ export default function Course() {
 
   useEffect(async() => {
 
-    await fetch("https://www.udemy.com/api-2.0/courses/", {
+    await fetch("http://localhost:3000/user/udemy", {
       method: "GET",
       headers: {
         "Accept": "application/json, text/plain, /",
-        "Authorization": "Basic M0p4N2RXeW11c1l0N2tHck13OFlQNG85NktNbmpSYUpQQTVSSGxkMzo2d1JCM3JVUkdqZkFZcXVFcGx3TTg1YmxCdE1CZ1M2eXlKY0RKckZWM21HeXFPQUh6cmNUZElpbHp4Z3dwdEh1TFh5YldvVHJjNm5rOXRqRzlVVjM5S3VKaUVvVDh4aUVyN3VNbFkwSmpvY0U0WG1YU0l6OEl5YnBXTm8yNFNCUA==",
+        "Authorization": "Dummy",
         "Content-Type": "application/json;charset=utf-8",
       }
-    })
-    .then(res=>res.json())
-    .then(res=>console.log(res, "Hello i am here"))
+  })
+    .then(res=>console.log(res))
+    .catch(err=>console.log(err))
   }, [])
 
   return (
