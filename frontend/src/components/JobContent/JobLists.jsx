@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import jobs from "./data";
 import { Link } from "react-router-dom";
 import Header from './Header';
@@ -36,6 +36,20 @@ function JobLists() {
       setJobData(jobs);
     }
   };
+
+  useEffect(async()=>{
+
+    await fetch("http://localhost:3000/jobs/", {
+      method:"GET",
+      headers:{
+        "Content-Type": "application/json;charset=utf-8",
+        "Accept":"application/json, text/plain, /",
+      }
+    })
+    .then(res=>console.log(res))
+    .catch(err=>console.log("Error is ", err))
+  },[])
+
   return (
     <div>
       <Header />

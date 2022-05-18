@@ -5,7 +5,7 @@ function Login() {
 
     const [user, setUser] = useState({
 
-        name: "",
+        email: "",
         pwd: ""
     })
 
@@ -38,7 +38,7 @@ function Login() {
 
         e.preventDefault()
 
-        const { name, pwd } = user
+        const { email, pwd } = user
         fetch("http://localhost:5000/login", {
             method: 'POST',
             headers: {
@@ -46,7 +46,7 @@ function Login() {
             },
             body: JSON.stringify({
 
-                name,
+                email,
                 pwd
             })
         })
@@ -69,9 +69,9 @@ function Login() {
                     <h1 className='login-text__heading'>Login page</h1>
                     <br />
                     <form onSubmit={handleSubmit}>
-                        <input name="name" value={user.name} onChange={handleChange} type="text" placeholder='Enter username' required />
+                        <input name="name" value={user.email} onChange={handleChange} type="email" placeholder='Enter your email' required />
           <br />
-                        <input name="pwd" value={user.pwd} onChange={handleChange} type="password" placeholder='enter password' required/>
+                        <input name="pwd" value={user.pwd} onChange={handleChange} type="password" placeholder='Enter your password' required/>
                         <br /><br />
                         <button className='login_btn btn1' type='submit'>Login</button>
                         <button className='login_btn btn2' onClick={()=>window.location.href = "/login/new"} >Register</button>

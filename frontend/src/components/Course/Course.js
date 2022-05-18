@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+// import base64_encode from "base-64"
 import "./Course.css";
 
 export default function Course() {
@@ -196,6 +197,20 @@ export default function Course() {
     setCategory(item);
   };
 
+  useEffect(async() => {
+
+    await fetch("http://localhost:3000/user/udemy", {
+      method: "GET",
+      headers: {
+        "Accept": "application/json, text/plain, /",
+        "Authorization": "Dummy",
+        "Content-Type": "application/json;charset=utf-8",
+      }
+  })
+    .then(res=>console.log(res))
+    .catch(err=>console.log(err))
+  }, [])
+
   return (
     <div className="Course">
         <div className="search_bar">
@@ -205,16 +220,16 @@ export default function Course() {
         </h4>
 
         <div>
-            {categoryKeys.map((item) => (
+          {categoryKeys.map((item) => (
             <button
-                className="category-btns"
-                onClick={categoryClickHandler.bind(this, item)}
+              className="category-btns"
+              onClick={categoryClickHandler.bind(this, item)}
             >
-                {item}
+              {item}
             </button>
-            ))}
+          ))}
         </div>
-       </div>     
+      </div>
 
       <hr />
 
