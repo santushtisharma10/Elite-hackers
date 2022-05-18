@@ -151,24 +151,24 @@
     font-size: 17px;
     background-color: transparent;
 }
-.book_overlay-inner .inner-box{
+.book_overlay-inner .book_inner-box{
     margin-top: 30px;
     display: flex;
     justify-content: center;
 }
-.book_overlay-inner .inner-box img{
+.book_overlay-inner .book_inner-box img{
     margin-right: 20px;
     width: 150px;
     height: 200px;
 }
-.book_overlay-inner .inner-box h3{
+.book_overlay-inner .book_inner-box h3{
     margin-top: 10px;
     color: green;
 }
-.book_overlay-inner .inner-box h4{
+.book_overlay-inner .book_inner-box h4{
     color: blue;
 }
-.book_overlay-inner .inner-box button{
+.book_overlay-inner .book_inner-box button{
     outline: none;
     border: none;
     width: 100px;

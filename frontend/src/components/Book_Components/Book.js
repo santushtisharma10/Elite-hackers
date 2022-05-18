@@ -1,4 +1,4 @@
-import react ,{useState}from "react";
+import React ,{useState}from "react";
 import Card from "./Card";
 import axios from "axios";
 import './Books.css';
@@ -8,7 +8,7 @@ const Book=()=>{
     const searchBook=(evt)=>{
         if(evt.key==="Enter")
         {
-            axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=AIzaSyA6SaT23KNiiA6DnUfUQTvFeyAcQEkwnSU'+'&maxResults=40')
+            axios.get('https://www.googleapis.com/books/v1/volumes?q='+search+'&key=AIzaSyCv7UzLO-1N4kqnsZtSmxzsQShRnheKb1k'+'&maxResults=40')
             .then(res=>setData(res.data.items))
             .catch(err=>console.log(err))
         }
