@@ -213,17 +213,10 @@ export default function Course() {
 
   return (
     <div className="Course">
-<<<<<<< HEAD
-      <div className="search_bar">
-        <h1>Best Web Development Courses 👩‍💻</h1>
-        <h4 className="tag-line">
-          Here are some of the best web development online courses
-=======
         <div className="search_bar">
         <h1>Get yourself industry ready ... 👩‍💻</h1>
         <h4 className="tag-line">
             Offering some of the best courses to sharpen your knowledge and build the best potential at just one click.
->>>>>>> 087d657b9e19186051cabc25e4164a5c419a9617
         </h4>
 
         <div>
