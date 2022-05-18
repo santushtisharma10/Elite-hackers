@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import './Books.css';
 const Modal=({show,item,onClose})=>{
     if(!show)
@@ -13,7 +13,7 @@ const Modal=({show,item,onClose})=>{
                     <button className="book_close" onClick={onClose}><i class="fas fa-times"></i></button>
                     <div className="book_inner-box">
                         <img src={thumbnail} alt="" />
-                        <div className="info">
+                        <div className="book_info">
                             <h1>{item.volumeInfo.title}</h1>
                             <h3>{item.volumeInfo.authors}</h3>
                             <h4>{item.volumeInfo.publisher}<span>{item.volumeInfo.publishedDate}</span></h4><br/>
