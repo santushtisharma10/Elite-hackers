@@ -14,7 +14,7 @@ return (
 	
 	<Container>
 		<Row>
-		<Column>
+		{/* <Column>
 			<Heading>Solutions</Heading>
 			<FooterLink href="#">We help the customers to find best solutions for their business</FooterLink>
 			
@@ -62,7 +62,7 @@ return (
 				</span>
 			</i>
 			</FooterLink>
-		</Column>
+		</Column> */}
 		</Row>
 	</Container>
 	</Box>

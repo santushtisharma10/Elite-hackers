@@ -1,5 +1,7 @@
 import React from 'react';
 import './ContactUs.css';
+import Navbar from '../Home/Navbar.jsx';
+import contact_img from '../../Asset/contact.PNG';
 
 const inputs = document.querySelectorAll(".input");
 
@@ -23,18 +25,19 @@ inputs.forEach((input) => {
 function ContactUs() { 
   return (
     <div>
-
+      <Navbar />
     <div class="contactform_container">
       <span class="big-circle"></span>
       <div class="form">
         <div class="contact-info">
           <h3 class="title">Let's get in touch</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
-          </p>
+          {/* <p class="imgg"> */}
+            {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta! */}
+            {/* <img src='{contact_img}' alt='contact img'></img>
+          </p> */}
 
-          <div class="info">
+          {/* <div class="info">
             <div class="information">
               <img src="img/location.png" class="icon" alt="" />
               <p>92 Cherry Drive Uniondale, NY 11553</p>
@@ -47,7 +50,7 @@ function ContactUs() {
               <img src="img/phone.png" class="icon" alt="" />
               <p>123-456-789</p>
             </div>
-          </div>
+          </div> */}
 
           {/* <div class="social-media">
             <p>Connect with us :</p>

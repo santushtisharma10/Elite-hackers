@@ -73,12 +73,12 @@ export default function Sidebar() {
             <br />
 
             <br />
-            <Link to="/calendar" className="link">
+            {/* <Link to="/calendar" className="link">
             <li className="sidebarListItem">
                 <BarChart className="sidebarIcon" />
                   Add to Calendar
               </li>
-            </Link>
+            </Link> */}
             <br />
           </ul>
         </div>
