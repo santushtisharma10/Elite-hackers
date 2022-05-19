@@ -39,7 +39,7 @@ function Login() {
         e.preventDefault()
 
         const { email, pwd } = user
-        fetch("http://localhost:5000/login", {
+        fetch("https://elitehackers.herokuapp.com/user/signin", {
             method: 'POST',
             headers: {
                 'Content-Type': "application/json"
@@ -50,10 +50,10 @@ function Login() {
                 pwd
             })
         })
-            .then(handleError)
+
             .then(() => window.location.href = "/dashboard")
             .catch((err) => {
-                console.log("Invalid Login")
+                console.log(err)
                 setTimeout(()=>setError(false), 2000)
             }
             )
@@ -69,7 +69,7 @@ function Login() {
                     <h1 className='login-text__heading'>Login page</h1>
                     <br />
                     <form onSubmit={handleSubmit}>
-                        <input name="name" value={user.email} onChange={handleChange} type="email" placeholder='Enter your email' required />
+                        <input name="email" value={user.email} onChange={handleChange} type="email" placeholder='Enter your email' required />
           <br />
                         <input name="pwd" value={user.pwd} onChange={handleChange} type="password" placeholder='Enter your password' required/>
                         <br /><br />

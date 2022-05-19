@@ -39,13 +39,15 @@ function JobLists() {
 
   useEffect(async()=>{
 
-    await fetch("http://localhost:3000/jobs/", {
+    await fetch("https://elitehackers.herokuapp.com/jobs", {
       method:"GET",
       headers:{
         "Content-Type": "application/json;charset=utf-8",
+        "x-access-token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmVlaGEiLCJlbWFpbCI6InJlZWhhQGdvb2dsZS5jb20iLCJpZCI6IjYyNmJiOWY2MzU4NmUyYjlhOTA0ZjMyNiIsImlhdCI6MTY1MTIyNzI1MywiZXhwIjoxNjUzODE5MjUzfQ.8It5-C1lC5NCfSk7pHlPAb3EyraqKjJC4HqHJpdWFkU",
         "Accept":"application/json, text/plain, /",
       }
     })
+    .then(res=> res.json())
     .then(res=>console.log(res))
     .catch(err=>console.log("Error is ", err))
   },[])

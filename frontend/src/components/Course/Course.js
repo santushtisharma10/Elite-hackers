@@ -208,7 +208,7 @@ export default function Course() {
       }
     })
     .then(res => res.json())
-    .then(res => {setCourses(res.results); console.log(res.results)})
+    .then(res => {setCourses(res.results); console.log(res)})
   }
   useEffect(() => {
 

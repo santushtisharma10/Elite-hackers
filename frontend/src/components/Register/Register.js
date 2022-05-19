@@ -49,7 +49,7 @@ function Register() {
 
         // api call to save the user info
         const { name, email, pwd } = user
-        fetch("http://localhost:5000/register", {
+        fetch("https://elitehackers.herokuapp.com/user/signup", {
             method: 'POST',
             headers: {
                 'Content-Type': "application/json"
@@ -62,7 +62,6 @@ function Register() {
                 }
             )
         })
-            .then(handleError)
             .then(() => window.location.href = '/login')
             .catch((err) => {
 
