@@ -239,6 +239,7 @@ export default function Course() {
 
 
       <div className="course_list">
+        
         <ul>
           {courses.map((item) => (
             <li>
@@ -251,7 +252,7 @@ export default function Course() {
               <div>
                 <h4 className="price">{item.price}</h4>
                 <a href={`https://www.udemy.com${item.url}`} target="blank" class="buy-btn">
-                  Buy
+                  Access
                 </a>
               </div>
             </li>

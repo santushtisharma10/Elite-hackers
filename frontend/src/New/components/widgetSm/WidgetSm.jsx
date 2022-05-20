@@ -43,6 +43,9 @@ export default function WidgetSm() {
       Weekly Target
       <p>Get,Set and Track your Weekly Progress</p>
     </div> */}
+    <div className="calendar_text ">
+      Get,Set and never loose track of important events/dates.
+    </div>
     <button>
       <AddToCalendarDropdown
         linkProps={{
