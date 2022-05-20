@@ -62,7 +62,7 @@ function Register() {
                 }
             )
         })
-            .then(() => window.location.href = '/login')
+            .then(() => window.location.href = '/signin')
             .catch((err) => {
 
                 setError(true)

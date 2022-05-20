@@ -111,7 +111,7 @@ function Login() {
                             </p>
                         </span>
                         <button className='login_btn btn1' type='submit'>Login</button>
-                        <button className='login_btn btn2' onClick={() => window.location.href = "/login/new"} >Register</button>
+                        <button className='login_btn btn2' onClick={() => window.location.href = "/signup"} >Register</button>
                     </form>
 
                 </div>
