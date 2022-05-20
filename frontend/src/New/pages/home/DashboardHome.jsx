@@ -16,8 +16,10 @@ export default function Home() {
         <div className="sidebaar">
         <Sidebar />
         </div>
+        
         <div className="home">
         <FeaturedInfo />
+        Monitor your progress, review the analytics, and use insights to drive ongoing improvements to achieve wonders.
           <Chart data={userData} title="User Analytics" grid dataKey="Active User"/>
           <div className="homeWidgets">
             <WidgetSm/>

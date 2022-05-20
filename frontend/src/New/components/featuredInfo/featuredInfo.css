@@ -2,10 +2,12 @@
     font-size: 25px;
     padding: 20px;
     font-weight: bold;
+    color: rgb(101, 101, 229);
     }
     
     .img{
         width: 100px;
+        height: 200px;
     }
     
     .featured {
@@ -42,7 +44,7 @@
         top: -50px;
         transform: translateX(-50%);
         width: 150px;
-        height: 150px;
+        height: 200px;
         background: #fff;
         border-radius: 20px;
         box-shadow: 0 15px 50px #DBC4FF;
@@ -69,8 +71,8 @@
         align-items: flex-end;
     }
     .details{
-        font-weight: bold;
-        padding: 90px;
+        /* font-weight: bold; */
+        padding: 40px;
         text-align: center;
         width: 200%;
         transition: 0.5s;

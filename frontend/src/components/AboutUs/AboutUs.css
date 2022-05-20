@@ -20,14 +20,15 @@
 .home{
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap:1rem;
     align-items: center;
 }
   
 .home .content{
     flex:1 1 40rem;
+    margin-left: -200px;
 }
-  
+
 .home .image{
     flex:1 1 20rem;
 }
@@ -41,7 +42,7 @@
     background:var(--gradient);
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 4rem;
+    font-size: 3rem;
 }
   
 .home .content p{

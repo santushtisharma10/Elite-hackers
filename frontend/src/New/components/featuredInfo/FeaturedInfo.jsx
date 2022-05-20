@@ -7,7 +7,7 @@ import logo3 from "../pictures/img5.PNG";
 export default function FeaturedInfo() {
   return (
     <div>
-    <div className="topheader">What's in store for you</div>
+    <div className="topheader">Our Investment Thesis and Beliefs </div>
     
     <div className="featured">
       <div className="featuredItem">
@@ -16,7 +16,7 @@ export default function FeaturedInfo() {
           <img src={logo3} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Get Your ATS friendly resume.</div>
+            <div class="details">Every aspiring individual should have a safe place to grow without being judged</div>
           </div>
         </div>
         </div>
@@ -26,7 +26,7 @@ export default function FeaturedInfo() {
           <img src={logo2} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Grow and Prosper Your Business with us. </div>
+            <div class="details">Organizations are keener than ever to tap into the power of mentoring and human connections</div>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function FeaturedInfo() {
           <img src={logo1} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details"> Acquire the services to get hired!</div>
+            <div class="details"> Organizations perform even better when they effectively leverage their collective wisdom</div>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function FeaturedInfo() {
           <img src={logo} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">Get Trained in best industry courses.</div>
+            <div class="details">A pllatform to facilitate both sharing and learning. Get hired with the ATS-friendly resume</div>
           </div>
         </div>
       </div>

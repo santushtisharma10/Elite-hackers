@@ -31,14 +31,14 @@ function App() {
           <Route path="/jobs" element={<JobLists />}/>
           <Route path="/jobs/:position" element={<JobDetails />}/>
           <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/mentorExtra" element={<MentorCard />}/>
+          <Route exact path="/mentorExtra" element={<MentorCard />}/>
           <Route path="/calendar" element={<WidgetSm />}/> 
           <Route path="/resume" element={<ResumePage />}/>
           <Route path="/contact" element={<ContactUs />}/>
           <Route path="/AboutUs" element={<AboutUs />}/>
-          <Route path="/chat" element={<ChatMain />}/>
-          <Route path="/course" element={<Course />}/>
-          <Route path="/books" element={<Book />}/>
+          <Route exact path="/chat" element={<ChatMain />}/>
+          <Route exact path="/course" element={<Course />}/>
+          <Route exact path="/books" element={<Book />}/>
         </Routes>
       </Router>
     </div>

@@ -26,7 +26,8 @@ const Book=()=>{
                             <input type="book_text" placeholder="Enter Your Book Name"
                             value={search} onChange={e=>setSearch(e.target.value)}
                             onKeyPress={searchBook}/>
-                            <button><i className="fas fa-search"></i></button>
+                            {/* <button><i className="book_button">Enter</i></button> */}
+                            Enter
                         </div>
                         <img src="./bg1.png" alt="" />
                     </div>

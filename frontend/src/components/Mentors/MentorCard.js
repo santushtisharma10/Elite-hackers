@@ -30,7 +30,7 @@ function MentorCard() {
 		<div class="diffSection" id="services_section">
 		</div>
 		<a href="/course"><div class="s-card"><img src={img3}></img><p>Online Courses</p></div></a>
-		<a href="/books"><div class="s-card"><img src={img4}></img><p>Popular books and resources</p></div></a>
+		<a href="/books"><div class="s-card"><img src={img4}></img><p>Books and resources</p></div></a>
 		<a href="/chat"><div class="s-card"><img src={img5}></img><p>Discussion with Mentors</p></div></a>
 	</div>
 	<br />

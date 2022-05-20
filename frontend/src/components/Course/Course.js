@@ -243,7 +243,7 @@ export default function Course() {
         <ul>
           {courses.map((item) => (
             <li>
-              <img src={item.image_480x270} alt="img" />
+              <img src={item.image_480x270} alt="img" className="course_image" />
               <h2>{item.title}</h2>
               <p className="coach">
                 Course by : <span>{ }</span>

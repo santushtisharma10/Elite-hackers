@@ -20,10 +20,10 @@ export default function Home() {
         <div className='col-10 mx-auto'>
           <div className='row'>
           <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1'>
-            <h1 id="caption">Accelerate your learning with a 1-on-1 mentor </h1>
-            <h2 id ="sub-caption" className='my-3'>Strong mentorship feedback from world class mentors to have learning and leveraging the skills needed to lead</h2>
+            <h1 id="caption">To address the challenges, organizations invest in a mentoring platform that has multiple capabilities to operate the best learning</h1>
+            <h3 id ="sub-caption" className='my-3'>Elite Hackers acts as the digital connective tissue that creates engagement between employees and accelerates the organization's growth.</h3>
           <div id="banner">
-            <NavLink to="/login/new" className="btn-get-started" id="btn">Get Started</NavLink>
+            <NavLink to="/dashboard" className="btn-get-started" id="btn">Get Started</NavLink>
           </div>
           </div>
           <div className='col-lg-6 order-1 order-lg-2 header-img' id="image">
