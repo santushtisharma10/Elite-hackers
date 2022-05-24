@@ -11,7 +11,7 @@ function Timeline() {
                 <div class="timeline-dot"></div>
                     <div class="timeline-content">
                     <h3>Connect with the perfect mentor</h3>
-                    <p >We will connect you with trained mentors,perfectly suited to your skills. </p>
+                    <p >We will connect you with trained mentors, perfectly suited to your skills. </p>
                 </div>
             </div>
             <div class="timeline-item">
@@ -27,7 +27,7 @@ function Timeline() {
                 
                 <div class="timeline-content">
                     <h3>Accelerate Your business</h3>
-                    <p>Find the right motivation,guidance and skills to boost your business profile.</p>
+                    <p>Find the right motivation, guidance and skills to boost your business profile.</p>
                 </div>
             </div>
             <div class="timeline-item">
