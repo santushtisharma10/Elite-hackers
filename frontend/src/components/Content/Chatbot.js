@@ -30,19 +30,19 @@ function Chatbot() {
     {
       id: "3",
       message:
-        "We offer different mentor support click on this link to go to mentoring sectiona dn you can find plenty of mentors who can help you with your queries!",
+        "We offer one-to-one mentor support, go to Excel with mentor section in the dashboard and get help with your queries!",
       trigger: "2",
     },
     {
       id: "4",
       message:
-        "You can upskill ypurself in following technologies: Follow this link to explore videos!",
+        "You can upskill yourself in trending technologies: Head to courses in dashboard to explore videos and upskill yourself!",
       trigger: "2",
     },
     {
       id: "5",
       message:
-        "Here is our feedback/grievance section. DO let us know how can we help!",
+        "Fill the feedback form to let us know how can we help and our team will connect with you!",
     },
   ];
 

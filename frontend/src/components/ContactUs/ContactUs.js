@@ -2,6 +2,7 @@ import React from 'react';
 import './ContactUs.css';
 import Navbar from '../Home/Navbar.jsx';
 import contact_img from '../../Asset/contact.PNG';
+import { NavLink } from 'react-router-dom';
 
 const inputs = document.querySelectorAll(".input");
 
@@ -96,7 +97,8 @@ function ContactUs() {
               <label for="">Message</label>
               <span>Message</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            {/* <input type="submit" value="Send" class="btn" /> */}
+            <NavLink to="/contact" className="btn">Send</NavLink>
           </form>
         </div>
       </div>

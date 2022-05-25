@@ -130,7 +130,7 @@ textarea.input {
 
 .input-container.textarea label {
   top: 1rem;
-  transform: translateY(0);
+  transform: translateY(1);
 }
 
 .btn {
@@ -142,9 +142,11 @@ textarea.input {
   line-height: 1;
   border-radius: 25px;
   outline: none;
+  width: 200px;
   cursor: pointer;
   transition: 0.3s;
   margin: 0;
+  margin-left: 70px;
 }
 
 .btn:hover {
@@ -195,7 +197,7 @@ textarea.input {
 .input-container.focus span:before,
 .input-container.focus span:after {
   width: 50%;
-  opacity: 1;
+  opacity: 2;
 }
 
 .contact-info {

@@ -46,7 +46,7 @@ export default function FeaturedInfo() {
           <img src={logo} className="img" alt="" />
           </div>
           <div class="card_content">
-            <div class="details">A pllatform to facilitate both sharing and learning. Get hired with the ATS-friendly resume</div>
+            <div class="details">A platform to facilitate both sharing and learning. Get hired with the ATS-friendly resume</div>
           </div>
         </div>
       </div>
